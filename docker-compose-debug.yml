@@ -1,0 +1,17 @@
+###             docker-compose-release.yml              #######
+## Description    :
+## - Build SCP Desktop (Release version) for Linux
+version: '3.5'
+services:
+  scp_desktop_builder_debug:
+    container_name: scp-desktop-debug
+    image: docker-priv-reg.kita.id:5000/wulida/ubuntu:18.04-scp-desktop-builder-mc
+    environment:
+      - CI_JOB_ID=$CI_JOB_ID
+      - CI_COMMIT_REF_NAME=$CI_COMMIT_REF_NAME
+    volumes:
+      - ./:/build
+      - /root/wulida/scp-android/config.json:/root/.mc/config.json      # mengarahkan ke credential minIO IDC scp dev.
+      - ./run.sh:/build/run.sh
+    command: bash run.sh debug
+    working_dir: /build

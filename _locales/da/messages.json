@@ -1,0 +1,2184 @@
+{
+    "copyErrorAndQuit": {
+        "message": "Kopier fejl og afslut",
+        "description": "Shown in the top-level error popup, allowing user to copy the error text and close the app"
+    },
+    "unknownGroup": {
+        "message": "Ukendt gruppe",
+        "description": "Shown as the name of a group if we don't have any information about it"
+    },
+    "databaseError": {
+        "message": "Databasefejl",
+        "description": "Shown in a popup if the database cannot start up properly"
+    },
+    "deleteAndRestart": {
+        "message": "Slet alle data og genstart",
+        "description": "Shown in a popup if the database cannot start up properly; allows user to dalete database and restart"
+    },
+    "mainMenuFile": {
+        "message": "&Filer",
+        "description": "The label that is used for the File menu in the program main menu. The '&' indicates that the following letter will be used as the keyboard 'shortcut letter' for accessing the menu with the Alt-<letter> combination."
+    },
+    "mainMenuCreateStickers": {
+        "message": "Create/upload sticker pack",
+        "description": "The label that is used for the Create/upload sticker pack option in the File menu in the program main menu. The '&' indicates that the following letter will be used as the keyboard 'shortcut letter' for accessing the menu with the Alt-<letter> combination."
+    },
+    "mainMenuEdit": {
+        "message": "&Redigér",
+        "description": "The label that is used for the Edit menu in the program main menu. The '&' indicates that the following letter will be used as the keyboard 'shortcut letter' for accessing the menu with the Alt-<letter> combination."
+    },
+    "mainMenuView": {
+        "message": "&Vis",
+        "description": "The label that is used for the View menu in the program main menu. The '&' indicates that the following letter will be used as the keyboard 'shortcut letter' for accessing the menu with the Alt-<letter> combination."
+    },
+    "mainMenuWindow": {
+        "message": "Vin&due",
+        "description": "The label that is used for the Window menu in the program main menu. The '&' indicates that the following letter will be used as the keyboard 'shortcut letter' for accessing the menu with the Alt-<letter> combination."
+    },
+    "mainMenuHelp": {
+        "message": "&Hjælp",
+        "description": "The label that is used for the Help menu in the program main menu. The '&' indicates that the following letter will be used as the keyboard 'shortcut letter' for accessing the menu with the Alt-<letter> combination."
+    },
+    "mainMenuSettings": {
+        "message": "Indstillinger",
+        "description": "The label that is used for the Preferences menu in the program main menu. This should be consistent with the standard naming for ‘Preferences’ on the operating system."
+    },
+    "appMenuHide": {
+        "message": "Skjul",
+        "description": "Application menu command to hide the window"
+    },
+    "appMenuHideOthers": {
+        "message": "Skjul andre",
+        "description": "Application menu command to hide all other windows"
+    },
+    "appMenuUnhide": {
+        "message": "Vis alle",
+        "description": "Application menu command to show all application windows"
+    },
+    "appMenuQuit": {
+        "message": "Luk Signal",
+        "description": "Application menu command to close the application"
+    },
+    "editMenuUndo": {
+        "message": "Fortryd",
+        "description": "Edit menu command to remove recently-typed text"
+    },
+    "editMenuRedo": {
+        "message": "Gentag",
+        "description": "Edit menu command to restore previously undone typed text"
+    },
+    "editMenuCut": {
+        "message": "Klip",
+        "description": "Edit menu command to remove selected text and add it to clipboard"
+    },
+    "editMenuCopy": {
+        "message": "Kopier",
+        "description": "Edit menu command to add selected text to clipboard"
+    },
+    "editMenuPaste": {
+        "message": "Indsæt",
+        "description": "Edit menu command to insert text from clipboard at cursor location"
+    },
+    "editMenuPasteAndMatchStyle": {
+        "message": "Indsæt og tilpas format",
+        "description": "Edit menu command to insert text from clipboard at cursor location, taking only text and not style information"
+    },
+    "editMenuDelete": {
+        "message": "Slet",
+        "description": "Edit menu command to remove the selected text"
+    },
+    "editMenuSelectAll": {
+        "message": "Vælg alle",
+        "description": "Edit menu comand to select all of the text in selected text box"
+    },
+    "editMenuStartSpeaking": {
+        "message": "Begynd at tale",
+        "description": "Edit menu item under 'speech' to start dictation"
+    },
+    "editMenuStopSpeaking": {
+        "message": "Stop med at tale",
+        "description": "Edit menu item under 'speech' to stop dictation"
+    },
+    "windowMenuClose": {
+        "message": "Luk vindue",
+        "description": "Window menu command to close the current window"
+    },
+    "windowMenuMinimize": {
+        "message": "Minimér",
+        "description": "Window menu command to minimize the current window"
+    },
+    "windowMenuZoom": {
+        "message": "Zoom",
+        "description": "Window menu command to make the current window the size of the whole screen"
+    },
+    "windowMenuBringAllToFront": {
+        "message": "Anbring alle forrest",
+        "description": "Window menu command to bring all windows of current applicatinon to front"
+    },
+    "viewMenuResetZoom": {
+        "message": "Faktisk størrelse",
+        "description": "View menu command to go back to the default zoom"
+    },
+    "viewMenuZoomIn": {
+        "message": "Zoom ind",
+        "description": "View menu command to make everything bigger"
+    },
+    "viewMenuZoomOut": {
+        "message": "Zoom ud",
+        "description": "View menu command to make everything smaller"
+    },
+    "viewMenuToggleFullScreen": {
+        "message": "Vis fuldskærm",
+        "description": "View menu command to enter or leave Full Screen mode"
+    },
+    "viewMenuToggleDevTools": {
+        "message": "Vis udviklerværktøjer",
+        "description": "View menu command to show or hide the developer tools"
+    },
+    "menuSetupWithImport": {
+        "message": "Opsætning med import",
+        "description": "When the application is not yet set up, menu option to start up the import sequence"
+    },
+    "menuSetupAsNewDevice": {
+        "message": "Opsætning som ny enhed",
+        "description": "When the application is not yet set up, menu option to start up the set up as fresh device"
+    },
+    "menuSetupAsStandalone": {
+        "message": "Opsætning som selvstændig enhed",
+        "description": "Only available on development modes, menu option to open up the standalone device setup sequence"
+    },
+    "avatarMenuViewArchive": {
+        "message": "View Archive",
+        "description": "One of the menu options available in the Avatar Popup menu"
+    },
+    "loading": {
+        "message": "Indlæser...",
+        "description": "Message shown on the loading screen before we've loaded any messages"
+    },
+    "optimizingApplication": {
+        "message": "Optimerer programmet...",
+        "description": "Message shown on the loading screen while we are doing application optimizations"
+    },
+    "migratingToSQLCipher": {
+        "message": "Optimering af meddelelser... $status$ komplet.",
+        "description": "Message shown on the loading screen while we are doing application optimizations",
+        "placeholders": {
+            "status": {
+                "content": "$1",
+                "example": "45/200"
+            }
+        }
+    },
+    "archivedConversations": {
+        "message": "Arkiveret samtaler",
+        "description": "Shown in place of the search box when showing archived conversation list"
+    },
+    "archiveHelperText": {
+        "message": "Disse samtaler arkiveres og vises kun i indbakken, hvis der modtages nye meddelelser.",
+        "description": "Shown at the top of the archived converations list in the left pane"
+    },
+    "archiveConversation": {
+        "message": "Arkiver samtalen",
+        "description": "Shown in menu for conversation, and moves conversation out of main conversation list"
+    },
+    "moveConversationToInbox": {
+        "message": "Flyt samtalen til indbakken",
+        "description": "Undoes Archive Conversation action, and moves archived conversation back to the main conversation list"
+    },
+    "chooseDirectory": {
+        "message": "Vælg mappe",
+        "description": "Button to allow the user to find a folder on disk"
+    },
+    "chooseFile": {
+        "message": "Vælg fil",
+        "description": "Button to allow the user to find a file on disk"
+    },
+    "loadDataHeader": {
+        "message": "Indlæs dine data",
+        "description": "Header shown on the first screen in the data import process"
+    },
+    "loadDataDescription": {
+        "message": "Du har lige gået gennem eksportprocessen, og dine kontakter og meddelelser venter tålmodigt på din computer. Vælg den mappe, der indeholder dine gemte Signal-data.",
+        "description": "Introduction to the process of importing messages and contacts from disk"
+    },
+    "importChooserTitle": {
+        "message": "Vælg mappe med eksporteret data",
+        "description": "Title of the popup window used to select data previously exported"
+    },
+    "importErrorHeader": {
+        "message": "Noget gik galt!",
+        "description": "Header of the error screen after a failed import"
+    },
+    "importingHeader": {
+        "message": "Indlæser kontakter og beskeder",
+        "description": "Header of screen shown as data is import"
+    },
+    "importErrorFirst": {
+        "message": "Sørg for at du har valgt den rigtige mappe, der indeholder dine gemte Signal-data. Dets navn skal begynde med 'Signal Export'. Du kan også gemme en ny kopi af dine data fra Chrome Appen.",
+        "description": "Message shown if the import went wrong; first paragraph"
+    },
+    "importErrorSecond": {
+        "message": "Hvis disse trin ikke virker for dig, send venligst en fejlfindingslogbog (Vis -> Debug log), så vi kan hjælpe dig med at blive migreret!",
+        "description": "Message shown if the import went wrong; second paragraph"
+    },
+    "importAgain": {
+        "message": "Vælg mappe og prøv igen",
+        "description": "Button shown if the user runs into an error during import, allowing them to start over"
+    },
+    "importCompleteHeader": {
+        "message": "Succes!",
+        "description": "Header shown on the screen at the end of a successful import process"
+    },
+    "importCompleteStartButton": {
+        "message": "Tag Signal Desktop i brug",
+        "description": "Button shown at end of successful import process, nothing left but a restart"
+    },
+    "importCompleteLinkButton": {
+        "message": "Forbind denne enhed til din telefon",
+        "description": "Button shown at end of successful 'light' import process, so the standard linking process still needs to happen"
+    },
+    "selectedLocation": {
+        "message": "din valgte lokation",
+        "description": "Message shown as the export location if we didn't capture the target directory"
+    },
+    "upgradingDatabase": {
+        "message": "Opgraderer database. Det kan godt tage lidt tid...",
+        "description": "Message shown on the loading screen when we're changing database structure on first run of a new version"
+    },
+    "loadingMessages": {
+        "message": "Indlæser beskeder. $count$ indtil nu...",
+        "description": "Message shown on the loading screen when we're catching up on the backlog of messages",
+        "placeholders": {
+            "count": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "me": {
+        "message": "Mig",
+        "description": "The label for yourself when shown in a group member list"
+    },
+    "view": {
+        "message": "Vis",
+        "description": "Used as a label on a button allowing user to see more information"
+    },
+    "youLeftTheGroup": {
+        "message": "Du forlod gruppen",
+        "description": "Displayed when a user can't send a message because they have left the group"
+    },
+    "scrollDown": {
+        "message": "Scroll til bunden af samtalen",
+        "description": "Alt text for button to take user down to bottom of conversation, shown when user scrolls up"
+    },
+    "messagesBelow": {
+        "message": "Nye beskeder nedenfor",
+        "description": "Alt text for button to take user down to bottom of conversation with more than one message out of screen"
+    },
+    "unreadMessage": {
+        "message": "1 ulæst besked",
+        "description": "Text for unread message separator, just one message"
+    },
+    "unreadMessages": {
+        "message": "$count$ ulæste beskeder",
+        "description": "Text for unread message separator, with count",
+        "placeholders": {
+            "count": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "youMarkedAsVerified": {
+        "message": "Du markerede dit sikkerhedsnummer med $name$ som verificeret",
+        "description": "Shown in the conversation history when the user marks a contact as verified.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "youMarkedAsNotVerified": {
+        "message": "Du markerede dit sikkerhedsnummer med $name$ som ikke verificeret",
+        "description": "Shown in the conversation history when the user marks a contact as not verified, whether on the Safety Number screen or by dismissing a banner or dialog.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "youMarkedAsVerifiedOtherDevice": {
+        "message": "Du markerede dit sikkerhedsnummer med $name$ som verificeret fra en anden enhed.",
+        "description": "Shown in the conversation history when we discover that the user marked a contact as verified on another device.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "youMarkedAsNotVerifiedOtherDevice": {
+        "message": "Du markerede dit sikkerhedsnummer med $name$ som ikke verificeret fra en anden enhed.",
+        "description": "Shown in the conversation history when we discover that the user marked a contact as not verified on another device.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "membersNeedingVerification": {
+        "message": "Dine sikkerhedsnumre med disse gruppemedlemmer har ændret sig siden du sidst verificerede. Klik på et gruppemedlem for at se dit nye sikkerhedsnummer med dem.",
+        "description": "When there are multiple previously-verified group members with safety number changes, a banner will be shown. The list of contacts with safety number changes is shown, and this text introduces that list."
+    },
+    "changedSinceVerifiedMultiple": {
+        "message": "Dine sikkerhedsnumre med flere gruppemedlemmer har ændret sig siden du sidst verificerede. Dette kan betyde at nogen forsøger at opsnappe jeres kommunikation eller bare at de har geninstalleret Signal.",
+        "description": "Shown on confirmation dialog when user attempts to send a message"
+    },
+    "changedSinceVerified": {
+        "message": "Dit sikkerhedsnummer med $name$ har ændret sig siden du sidst verificerede. Dette kan betyde at nogen forsøger at opsnappe jeres kommunikation eller at $name$ bare har geninstalleret Signal.",
+        "description": "Shown on confirmation dialog when user attempts to send a message",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "changedRightAfterVerify": {
+        "message": "Det sikkerhedsnummer du prøver at verificere har ændret sig. Venligst verificer det nye sikkerhedsnummer med $name$. Husk, dette kan betyde at nogen forsøger at opsnappe jeres kommunikation eller at $name$ bare har geninstalleret Signal.",
+        "description": "Shown on the safety number screen when the user has selected to verify/unverify a contact's safety number, and we immediately discover a safety number change",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "changedRecentlyMultiple": {
+        "message": "Dine sikkerhedsnumre med flere gruppemedlemmer har ændret sig for nylig. Dette kan betyde at nogen forsøger at opsnappe jeres kommunikation eller bare at de har geninstalleret Signal.",
+        "description": "Shown on confirmation dialog when user attempts to send a message"
+    },
+    "changedRecently": {
+        "message": "Dit sikkerhedsnummer med $name$ har ændret sig for nylig. Dette kan betyde at nogen forsøger at opsnappe jeres kommunikation eller at $name$ bare har geninstalleret Signal.",
+        "description": "Shown on confirmation dialog when user attempts to send a message",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "identityKeyErrorOnSend": {
+        "message": "Your safety number with $name$ has changed. This could either mean that someone is trying to intercept your communication or that $name$ has simply reinstalled Signal. You may wish to verify your safety number with this contact.",
+        "description": "Shown when user clicks on a failed recipient in the message detail view after an identity key change",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "sendAnyway": {
+        "message": "Send alligevel",
+        "description": "Used on a warning dialog to make it clear that it might be risky to send the message."
+    },
+    "noLongerVerified": {
+        "message": "Dit sikkerhedsnummer med $name$ har ændret sig og er ikke længere verificeret. Klik for at vise.",
+        "description": "Shown in converation banner when user's safety number has changed, but they were previously verified.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "multipleNoLongerVerified": {
+        "message": "Dit sikkerhedsnummer med flere medlemmer af denne gruppe har ændret sig og er ikke længere verificeret. Klik for at vise.",
+        "description": "Shown in conversation banner when more than one group member's safety number has changed, but they were previously verified."
+    },
+    "debugLogExplanation": {
+        "message": "Denne log vil blive lagt offentligt online for udvikleres brug. Du kan undersøge og redigere den før du sender.",
+        "description": ""
+    },
+    "debugLogError": {
+        "message": "Noget gik galt under upload! Venligst overvej manuelt at tilføje din log til den fejlrapport, du sender.",
+        "description": ""
+    },
+    "reportIssue": {
+        "message": "Rapporter en fejl",
+        "description": "Link to open the issue tracker"
+    },
+    "gotIt": {
+        "message": "Forstået",
+        "description": "Label for a button that dismisses a dialog. The user clicks it to confirm that they understand the message in the dialog."
+    },
+    "submit": {
+        "message": "Send",
+        "description": ""
+    },
+    "acceptNewKey": {
+        "message": "Acceptér",
+        "description": "Label for a button to accept a new safety number"
+    },
+    "verify": {
+        "message": "Marker som verificeret",
+        "description": ""
+    },
+    "unverify": {
+        "message": "Marker som ikke verificeret",
+        "description": ""
+    },
+    "isVerified": {
+        "message": "Du har verificeret dit sikkerhedsnummer med $name$.",
+        "description": "Summary state shown at top of the safety number screen if user has verified contact.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "isNotVerified": {
+        "message": "Du har ikke verificeret dit sikkerhedsnummer med $name$.",
+        "description": "Summary state shown at top of the safety number screen if user has not verified contact.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "verified": {
+        "message": "Verificeret",
+        "description": ""
+    },
+    "newIdentity": {
+        "message": "Nyt sikkerhedsnummer",
+        "description": "Header for a key change dialog"
+    },
+    "identityChanged": {
+        "message": "Dit sikkerhedsnummer med denne kontakt har ændret sig. Dette kan betyde at nogen forsøger at opsnappe jeres kommunikation eller at denne kontakt bare har geninstalleret Signal. Du bør overveje at verificere det nye sikkerhedsnummer nedenfor.",
+        "description": ""
+    },
+    "incomingError": {
+        "message": "Fejl i forbindelse med indgående besked",
+        "description": ""
+    },
+    "media": {
+        "message": "Mediefiler",
+        "description": "Header of the default pane in the media gallery, showing images and videos"
+    },
+    "mediaEmptyState": {
+        "message": "Du har ingen mediefiler i denne samtale",
+        "description": "Message shown to user in the media gallery when there are no messages with media attachments (images or video)"
+    },
+    "documents": {
+        "message": "Dokumenter",
+        "description": "Header of the secondary pane in the media gallery, showing every non-media attachment"
+    },
+    "documentsEmptyState": {
+        "message": "Du har ingen dokumenter i denne samtale",
+        "description": "Message shown to user in the media gallery when there are no messages with document attachments (anything other than images or video)"
+    },
+    "today": {
+        "message": "I dag",
+        "description": "Section header in the media gallery"
+    },
+    "yesterday": {
+        "message": "I går",
+        "description": "Section header in the media gallery"
+    },
+    "thisWeek": {
+        "message": "Denne uge",
+        "description": "Section header in the media gallery"
+    },
+    "thisMonth": {
+        "message": "Denne måned",
+        "description": "Section header in the media gallery"
+    },
+    "unsupportedAttachment": {
+        "message": "Ikke-understøttet vedhæftningstype. Klik for at gemme.",
+        "description": "Displayed for incoming unsupported attachment"
+    },
+    "clickToSave": {
+        "message": "Klik for at gemme",
+        "description": "Hover text for attachment filenames"
+    },
+    "unnamedFile": {
+        "message": "Unavngiven fil",
+        "description": "Hover text for attachment filenames"
+    },
+    "voiceMessage": {
+        "message": "Talebesked",
+        "description": "Name for a voice message attachment"
+    },
+    "dangerousFileType": {
+        "message": "Vedhæftningstype er ikke tilladt af sikkerhedsmæssige årsager",
+        "description": "Shown in toast when user attempts to send .exe file, for example"
+    },
+    "loadingPreview": {
+        "message": "Indlæser eksempelvisning...",
+        "description": "Shown while Signal Desktop is fetching metadata for a url in composition area"
+    },
+    "stagedPreviewThumbnail": {
+        "message": "Udkast miniaturebillede til eksempelvisning for $domain$",
+        "description": "Shown while Signal Desktop is fetching metadata for a url in composition area",
+        "placeholders": {
+            "path": {
+                "content": "$1",
+                "example": "instagram.com"
+            }
+        }
+    },
+    "previewThumbnail": {
+        "message": "Miniaturebillede til eksempelvisning for $domain$",
+        "description": "Shown while Signal Desktop is fetching metadata for a url in composition area",
+        "placeholders": {
+            "path": {
+                "content": "$1",
+                "example": "instagram.com"
+            }
+        }
+    },
+    "stagedImageAttachment": {
+        "message": "Udkast af vedhæftet billedfil: $path$",
+        "description": "Alt text for staged attachments",
+        "placeholders": {
+            "path": {
+                "content": "$1",
+                "example": "dog.jpg"
+            }
+        }
+    },
+    "oneNonImageAtATimeToast": {
+        "message": "Når der indgår en vedhæftet fil uden billed, er grænsen en vedhæftet fil pr. besked.",
+        "description": "An error popup when the user has attempted to add an attachment"
+    },
+    "cannotMixImageAdnNonImageAttachments": {
+        "message": "Du kan ikke blande ikke-billed og billedvedhæftninger i en besked.",
+        "description": "An error popup when the user has attempted to add an attachment"
+    },
+    "maximumAttachments": {
+        "message": "Du kan ikke tilføje flere vedhæftede filer til denne meddelelse.",
+        "description": "An error popup when the user has attempted to add an attachment"
+    },
+    "fileSizeWarning": {
+        "message": "Beklager, den valgte fil overstiger den tilladte størrelse.",
+        "description": ""
+    },
+    "unableToLoadAttachment": {
+        "message": "Kan ikke indlæse den valgte vedhæftning.",
+        "description": ""
+    },
+    "disconnected": {
+        "message": "Afbrudt",
+        "description": "Displayed when the desktop client cannot connect to the server."
+    },
+    "connecting": {
+        "message": "Forbinder",
+        "description": "Displayed when the desktop client is currently connecting to the server."
+    },
+    "offline": {
+        "message": "Offline",
+        "description": "Displayed when the desktop client has no network connection."
+    },
+    "checkNetworkConnection": {
+        "message": "Kontroller din netværksforbindelse.",
+        "description": "Obvious instructions for when a user's computer loses its network connection"
+    },
+    "attemptingReconnection": {
+        "message": "Forsøger at genoprette forbindelse på $reconnect_duration_in_seconds$ sekunder",
+        "description": "",
+        "placeholders": {
+            "reconnect_duration_in_seconds": {
+                "content": "$1",
+                "example": "10"
+            }
+        }
+    },
+    "submitDebugLog": {
+        "message": "Debug log",
+        "description": "Menu item and header text for debug log modal (sentence case)"
+    },
+    "debugLog": {
+        "message": "Debug log",
+        "description": "View menu item to open the debug log (title case)"
+    },
+    "helpMenuShowKeyboardShortcuts": {
+        "message": "Show Keyboard Shortcuts",
+        "description": "Item under the help menu, pops up a screen showing the application's keyboard shortcuts"
+    },
+    "goToReleaseNotes": {
+        "message": "Gå til udgivelsesnoter",
+        "description": "Item under the help menu, takes you to GitHub page for release notes"
+    },
+    "goToForums": {
+        "message": "Gå til fora",
+        "description": "Item under the Help menu, takes you to the forums"
+    },
+    "goToSupportPage": {
+        "message": "Gå til supportsiden",
+        "description": "Item under the Help menu, takes you to the support page"
+    },
+    "menuReportIssue": {
+        "message": "Indmeld en fejl",
+        "description": "Item under the Help menu, takes you to GitHub new issue form (title case)"
+    },
+    "signalDesktopPreferences": {
+        "message": "Signal Desktop indstillinger",
+        "description": "Title of the window that pops up with Signal Desktop preferences in it"
+    },
+    "signalDesktopStickerCreator": {
+        "message": "Sticker pack creator",
+        "description": "Title of the window that pops up with Signal Desktop preferences in it"
+    },
+    "aboutDesktop": {
+        "message": "Om Signal Desktop",
+        "description": "Item under the Help menu, which opens a small about window"
+    },
+    "speech": {
+        "message": "Tale",
+        "description": "Item under the Edit menu, with 'start/stop speaking' items below it"
+    },
+    "show": {
+        "message": "Vis",
+        "description": "Command under Window menu, to show the window"
+    },
+    "hide": {
+        "message": "Skjul",
+        "description": "Command in the tray icon menu, to hide the window"
+    },
+    "quit": {
+        "message": "Afslut",
+        "description": "Command in the tray icon menu, to quit the application"
+    },
+    "signalDesktop": {
+        "message": "Signal Desktop",
+        "description": "Tooltip for the tray icon"
+    },
+    "search": {
+        "message": "Søg",
+        "description": "Placeholder text in the search input"
+    },
+    "searchIn": {
+        "message": "Search in $conversationName$",
+        "description": "Shown in the search box before text is entered when searching in a specific conversation",
+        "placeholders": {
+            "conversationName": {
+                "content": "$1",
+                "example": "Friends"
+            }
+        }
+    },
+    "noSearchResults": {
+        "message": "Ingen resultater for \"$searchTerm$\"",
+        "description": "Shown in the search left pane when no results were found",
+        "placeholders": {
+            "searchTerm": {
+                "content": "$1",
+                "example": "dog"
+            }
+        }
+    },
+    "noSearchResultsInConversation": {
+        "message": "No results for \"$searchTerm$\" in $conversationName$",
+        "description": "Shown in the search left pane when no results were found",
+        "placeholders": {
+            "searchTerm": {
+                "content": "$2",
+                "example": "Friends"
+            }
+        }
+    },
+    "conversationsHeader": {
+        "message": "Samtaler",
+        "description": "Shown to separate the types of search results"
+    },
+    "contactsHeader": {
+        "message": "Kontakter",
+        "description": "Shown to separate the types of search results"
+    },
+    "messagesHeader": {
+        "message": "Beskeder",
+        "description": "Shown to separate the types of search results"
+    },
+    "welcomeTo": {
+        "message": "Velkommen til Signal",
+        "description": ""
+    },
+    "selectAContact": {
+        "message": "Vælg en kontakt eller gruppe for at komme igang med at chatte.",
+        "description": ""
+    },
+    "typingAlt": {
+        "message": "Skrive animation for denne samtale",
+        "description": "Used as the 'title' attibute for the typing animation"
+    },
+    "contactAvatarAlt": {
+        "message": "Avatar for kontakt $name$",
+        "description": "Used in the alt tag for the image avatar of a contact",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "sendMessageToContact": {
+        "message": "Send besked",
+        "description": "Shown when you are sent a contact and that contact has a signal account"
+    },
+    "home": {
+        "message": "hjem",
+        "description": "Shown on contact detail screen as a label for an address/phone/email"
+    },
+    "work": {
+        "message": "arbejde",
+        "description": "Shown on contact detail screen as a label for an address/phone/email"
+    },
+    "mobile": {
+        "message": "mobil",
+        "description": "Shown on contact detail screen as a label for aa phone or email"
+    },
+    "email": {
+        "message": "e-mail",
+        "description": "Generic label shown if contact email has custom type but no label"
+    },
+    "phone": {
+        "message": "telefon",
+        "description": "Generic label shown if contact phone has custom type but no label"
+    },
+    "address": {
+        "message": "adresse",
+        "description": "Generic label shown if contact address has custom type but no label"
+    },
+    "poBox": {
+        "message": "Postboks",
+        "description": "When rendering an address, used to provide context to a post office box"
+    },
+    "downloading": {
+        "message": "Henter",
+        "description": "Shown in the message bubble while a long message attachment is being downloaded"
+    },
+    "downloadAttachment": {
+        "message": "Hent vedhæftet fil",
+        "description": "Shown in a message's triple-dot menu if there isn't room for a dedicated download button"
+    },
+    "replyToMessage": {
+        "message": "Svar på besked",
+        "description": "Shown in triple-dot menu next to message to allow user to start crafting a message with a quotation"
+    },
+    "originalMessageNotFound": {
+        "message": "Original besked ikke fundet",
+        "description": "Shown in quote if reference message was not found as message was initially downloaded and processed"
+    },
+    "originalMessageNotAvailable": {
+        "message": "Original besked er ikke længere tilgængelig",
+        "description": "Shown in toast if user clicks on quote that references message no longer in database"
+    },
+    "messageFoundButNotLoaded": {
+        "message": "Original besked fundet, men ikke indlæst. Rul op for at indlæse den.",
+        "description": "Shown in toast if user clicks on quote references messages not loaded in view, but in database"
+    },
+    "voiceNoteMustBeOnlyAttachment": {
+        "message": "A voice message must have only one attachment.",
+        "description": "Shown in toast if tries to record a voice note with any staged attachments"
+    },
+    "attachmentSaved": {
+        "message": "Attachment saved. Click to show in folder.",
+        "description": "Shown after user selects to save to downloads",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "proof.jpg"
+            }
+        }
+    },
+    "you": {
+        "message": "Dig",
+        "description": "In Android theme, shown in quote if you or someone else replies to you"
+    },
+    "replyingTo": {
+        "message": "Svarer $name$",
+        "description": "Shown in iOS theme when you or someone quotes to a message which is not from you",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "audioPermissionNeeded": {
+        "message": "For at sende talebeskeder skal du lade Signal Desktop få adgang til din mikrofon.",
+        "description": "Shown if the user attempts to send an audio message without audio permssions turned on"
+    },
+    "allowAccess": {
+        "message": "Tillad adgang",
+        "description": "Button shown in popup asking to enable microphon/video permissions to send audio messages"
+    },
+    "showSettings": {
+        "message": "Vis indstillinger",
+        "description": "A button shown in dialog requesting the user to turn on audio permissions"
+    },
+    "audio": {
+        "message": "Lyd",
+        "description": "Shown in a quotation of a message containing an audio attachment if no text was originally provided with that attachment"
+    },
+    "video": {
+        "message": "Video",
+        "description": "Shown in a quotation of a message containing a video if no text was originally provided with that video"
+    },
+    "photo": {
+        "message": "Billede",
+        "description": "Shown in a quotation of a message containing a photo if no text was originally provided with that image"
+    },
+    "cannotUpdate": {
+        "message": "Kan ikke opdatere",
+        "description": "Shown as the title of our update error dialogs on windows"
+    },
+    "cannotUpdateDetail": {
+        "message": "Signal Desktop mislykkedes at opdatere, men der er en ny version tilgængelig. Gå til https://signal.org/download og installer den nye version manuelt. Så kontakt enten support eller send en fejlrapport om dette problem.",
+        "description": "Shown if a general error happened while trying to install update package"
+    },
+    "readOnlyVolume": {
+        "message": "Signal Desktop er sandsynligvis i en karantæne i macOS, og kan ikke opdatere automatisk. Prøv venligst at flytte Signal.app til /Programmer med Finder.",
+        "description": "Shown on MacOS if running on a read-only volume and we cannot update"
+    },
+    "ok": {
+        "message": "Ok",
+        "description": ""
+    },
+    "cancel": {
+        "message": "Afbryd",
+        "description": ""
+    },
+    "failedToSend": {
+        "message": "Kunne ikke sende til nogle modtagere. Kontrollér din internetforbindelse.",
+        "description": ""
+    },
+    "error": {
+        "message": "Fejl",
+        "description": ""
+    },
+    "messageDetail": {
+        "message": "Beskeddetalje",
+        "description": ""
+    },
+    "delete": {
+        "message": "Slet",
+        "description": ""
+    },
+    "deleteWarning": {
+        "message": "Er du sikker? Hvis du klikker på 'Slet', fjernes denne meddelelse permanent og kun fra denne enhed.",
+        "description": ""
+    },
+    "deleteThisMessage": {
+        "message": "Slet besked",
+        "description": ""
+    },
+    "from": {
+        "message": "Fra",
+        "description": "Label for the sender of a message"
+    },
+    "to": {
+        "message": "Til",
+        "description": "Label for the receiver of a message"
+    },
+    "toJoiner": {
+        "message": "til",
+        "description": "Joiner for message search results - like 'Jon' to 'Friends Group'"
+    },
+    "sent": {
+        "message": "Sendt",
+        "description": "Label for the time a message was sent"
+    },
+    "received": {
+        "message": "Modtaget",
+        "description": "Label for the time a message was received"
+    },
+    "sendMessage": {
+        "message": "Send en besked",
+        "description": "Placeholder text in the message entry field"
+    },
+    "groupMembers": {
+        "message": "Gruppemedlemmer",
+        "description": ""
+    },
+    "showMembers": {
+        "message": "Vis medlemmer",
+        "description": ""
+    },
+    "resetSession": {
+        "message": "Nulstil session",
+        "description": "This is a menu item for resetting the session, using the imperative case, as in a command."
+    },
+    "showSafetyNumber": {
+        "message": "Vis sikkerhedsnummer",
+        "description": ""
+    },
+    "viewAllMedia": {
+        "message": "Se all mediefiler",
+        "description": "This is a menu item for viewing all media (images + video) in a conversation, using the imperative case, as in a command."
+    },
+    "verifyHelp": {
+        "message": "Hvis du ønsker at verificere sikkerheden af din end-to-end kryptering med $name$ kan du sammenligne numrene ovenfor med numrene på deres enhed.",
+        "description": "",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "theirIdentityUnknown": {
+        "message": "Du har ikke udvekslet nogen beskeder med denne kontakt endnu. Dit sikkerhedsnummer med dem vil være tilgængeligt efter den første meddelelse.",
+        "description": ""
+    },
+    "moreInfo": {
+        "message": "Mere info...",
+        "description": "Shown on the drop-down menu for an individual message, takes you to message detail screen"
+    },
+    "retrySend": {
+        "message": "Prøv igen",
+        "description": "Shown on the drop-down menu for an indinvidaul message, but only if it is an outgoing message that failed to send"
+    },
+    "deleteMessage": {
+        "message": "Slet besked",
+        "description": "Shown on the drop-down menu for an individual message, deletes single message"
+    },
+    "deleteMessages": {
+        "message": "Slet beskeder",
+        "description": "Menu item for deleting messages, title case."
+    },
+    "deleteConversationConfirmation": {
+        "message": "Slet samtale permanent?",
+        "description": "Confirmation dialog text that asks the user if they really wish to delete the conversation. Answer buttons use the strings 'ok' and 'cancel'. The deletion is permanent, i.e. it cannot be undone."
+    },
+    "sessionEnded": {
+        "message": "Nulstilling af sikker session",
+        "description": "This is a past tense, informational message. In other words, your secure session has been reset."
+    },
+    "quoteThumbnailAlt": {
+        "message": "Miniatur af billede fra citeret besked",
+        "description": "Used in alt tag of thumbnail images inside of an embedded message quote"
+    },
+    "imageAttachmentAlt": {
+        "message": "Billede vedhæftet til beskeden",
+        "description": "Used in alt tag of image attachment"
+    },
+    "videoAttachmentAlt": {
+        "message": "Skærmbillede af video knyttet til beskeden",
+        "description": "Used in alt tag of video attachment preview"
+    },
+    "lightboxImageAlt": {
+        "message": "Billede sendt i samtale",
+        "description": "Used in the alt tag for the image shown in a full-screen lightbox view"
+    },
+    "imageCaptionIconAlt": {
+        "message": "Ikon, der viser, at dette billede har en billedtekst",
+        "description": "Used for the icon layered on top of an image in message bubbles"
+    },
+    "addACaption": {
+        "message": "Tilføj en billedtekst...",
+        "description": ""
+    },
+    "save": {
+        "message": "Gem",
+        "description": ""
+    },
+    "fileIconAlt": {
+        "message": "Filikon",
+        "description": "Used in the media gallery documents tab to visually represent a file"
+    },
+    "installWelcome": {
+        "message": "Velkommen til Signal Desktop",
+        "description": "Welcome title on the install page"
+    },
+    "installTagline": {
+        "message": "Privatliv er muligt. Signal gør det nemt.",
+        "description": "Tagline displayed under 'installWelcome' string on the install page"
+    },
+    "linkYourPhone": {
+        "message": "Forbind din telefon til Signal Desktop",
+        "description": "Shown on the front page when the application first starst, above the QR code"
+    },
+    "signalSettings": {
+        "message": "Signal indstillinger",
+        "description": "Used in the guidance to help people find the 'link new device' area of their Signal mobile app"
+    },
+    "linkedDevices": {
+        "message": "Forbundne enheder",
+        "description": "Used in the guidance to help people find the 'link new device' area of their Signal mobile app"
+    },
+    "plusButton": {
+        "message": "'+'-knap",
+        "description": "The button used in Signal Android to add a new linked device"
+    },
+    "linkNewDevice": {
+        "message": "Forbind ny enhed",
+        "description": "The menu option shown in Signal iOS to add a new linked device"
+    },
+    "deviceName": {
+        "message": "Enhedsnavn",
+        "description": "The label in settings panel shown for the user-provided name for this desktop instance"
+    },
+    "chooseDeviceName": {
+        "message": "Vælg denne enheds navn",
+        "description": "The header shown on the 'choose device name' screen in the device linking process"
+    },
+    "finishLinkingPhone": {
+        "message": "Afslut tilkobling af telefon",
+        "description": "The text on the button to finish the linking process, after choosing the device name"
+    },
+    "initialSync": {
+        "message": "Synkroniserer kontakter og grupper",
+        "description": "Shown during initial link while contacts and groups are being pulled from mobile device"
+    },
+    "installConnectionFailed": {
+        "message": "Kunne ikke kontakte serveren.",
+        "description": "Displayed when we can't connect to the server."
+    },
+    "installTooManyDevices": {
+        "message": "Beklager, du har for mange enheder forbundet. Prøv at fjerne nogle.",
+        "description": ""
+    },
+    "settings": {
+        "message": "Indstillinger",
+        "description": "Menu item and header for global settings"
+    },
+    "theme": {
+        "message": "Tema",
+        "description": "Header for theme settings"
+    },
+    "permissions": {
+        "message": "Tilladelser",
+        "description": "Header for permissions section of settings"
+    },
+    "mediaPermissionsDescription": {
+        "message": "Tillad adgang til kamera og mikrofon",
+        "description": "Description of the media permission description"
+    },
+    "general": {
+        "message": "Generelt",
+        "description": "Header for general options on the settings screen"
+    },
+    "spellCheckDescription": {
+        "message": "Aktiver stavekontrol af beskeder",
+        "description": "Description of the media permission description"
+    },
+    "clearDataHeader": {
+        "message": "Ryd data",
+        "description": "Header in the settings dialog for the section dealing with data deletion"
+    },
+    "clearDataExplanation": {
+        "message": "Dette vil rydde alle data i programmet, fjerne alle beskeder og gemte kontooplysninger.",
+        "description": "Text describing what the clear data button will do."
+    },
+    "clearDataButton": {
+        "message": "Ryd data",
+        "description": "Button in the settings dialog starting process to delete all data"
+    },
+    "deleteAllDataHeader": {
+        "message": "Slet alle data?",
+        "description": "Header of the full-screen delete data confirmation screen"
+    },
+    "deleteAllDataBody": {
+        "message": "Du er ved at slette alle gemte kontoinformationer, herunder alle kontakter og alle beskeder. Du kan altid tilkoble din mobilenhed på ny, men det vil ikke genoprette slettede beskeder.",
+        "description": "Text describing what exactly will happen if the user clicks the button to delete all data"
+    },
+    "deleteAllDataButton": {
+        "message": "Slet alle data",
+        "description": "Text of the button that deletes all data"
+    },
+    "deleteAllDataProgress": {
+        "message": "Afbryder og sletter alle data",
+        "description": "Message shown to user when app is disconnected and data deleted"
+    },
+    "notifications": {
+        "message": "Meddelelser",
+        "description": "Header for notification settings"
+    },
+    "notificationSettingsDialog": {
+        "message": "Når beskeder ankommer, vis meddelelser med:",
+        "description": "Explain the purpose of the notification settings"
+    },
+    "disableNotifications": {
+        "message": "Slå meddelelser fra",
+        "description": "Label for disabling notifications"
+    },
+    "nameAndMessage": {
+        "message": "Både navn og besked",
+        "description": "Label for setting notifications to display name and message text"
+    },
+    "noNameOrMessage": {
+        "message": "Hverken navn eller besked",
+        "description": "Label for setting notifications to display no name and no message text"
+    },
+    "nameOnly": {
+        "message": "Kun navn",
+        "description": "Label for setting notifications to display sender name only"
+    },
+    "newMessage": {
+        "message": "Ny besked",
+        "description": "Displayed in notifications for only 1 message"
+    },
+    "newMessages": {
+        "message": "Nye beskeder",
+        "description": "Displayed in notifications for multiple messages"
+    },
+    "notificationMostRecentFrom": {
+        "message": "Seneste fra:",
+        "description": "Displayed in notifications when setting is 'name only' and more than one message is waiting"
+    },
+    "notificationFrom": {
+        "message": "Fra:",
+        "description": "Displayed in notifications when setting is 'name only' and one message is waiting"
+    },
+    "notificationMostRecent": {
+        "message": "Seneste:",
+        "description": "Displayed in notifications when setting is 'name and message' and more than one message is waiting"
+    },
+    "notificationReaction": {
+        "message": "$sender$ reacted $emoji$ to your message",
+        "description": "",
+        "placeholders": {
+            "sender": {
+                "content": "$1",
+                "example": "John"
+            },
+            "emoji": {
+                "content": "$2",
+                "example": "👍"
+            }
+        }
+    },
+    "notificationReactionMostRecent": {
+        "message": "Most recent: $sender$ reacted $emoji$ to your message",
+        "description": "",
+        "placeholders": {
+            "sender": {
+                "content": "$1",
+                "example": "John"
+            },
+            "emoji": {
+                "content": "$2",
+                "example": "👍"
+            }
+        }
+    },
+    "sendFailed": {
+        "message": "Afsendelse fejlede",
+        "description": "Shown on outgoing message if it fails to send"
+    },
+    "showMore": {
+        "message": "Detaljer",
+        "description": "Displays the details of a key change"
+    },
+    "showLess": {
+        "message": "Skjul detaljer",
+        "description": "Hides the details of a key change"
+    },
+    "learnMore": {
+        "message": "Lær mere om at verificere sikkerhedsnumre",
+        "description": "Text that links to a support article on verifying safety numbers"
+    },
+    "expiredWarning": {
+        "message": "Denne version af Signal er forældet. Venligst opgrader til den seneste version.",
+        "description": "Warning notification that this version of the app has expired"
+    },
+    "upgrade": {
+        "message": "Opgrader",
+        "description": "Label text for button to upgrade the app to the latest version"
+    },
+    "mediaMessage": {
+        "message": "Media Message",
+        "description": "Description of a message that has an attachment and no text, displayed in the conversation list as a preview."
+    },
+    "unregisteredUser": {
+        "message": "Nummer er ikke registreret",
+        "description": "Error message displayed when sending to an unregistered user."
+    },
+    "sync": {
+        "message": "Kontakter",
+        "description": "Label for contact and group sync settings"
+    },
+    "syncExplanation": {
+        "message": "Importer alle Signalgrupper og kontakter fra din mobilenhed.",
+        "description": "Explanatory text for sync settings"
+    },
+    "lastSynced": {
+        "message": "Sidste import:",
+        "description": "Label for date and time of last sync operation"
+    },
+    "syncNow": {
+        "message": "Importér nu",
+        "description": "Label for a button that syncs contacts and groups from your phone"
+    },
+    "syncing": {
+        "message": "Importerer...",
+        "description": "Label for a disabled sync button while sync is in progress."
+    },
+    "syncFailed": {
+        "message": "Importen mislykkedes. Sørg for, at din computer og din telefon er forbundet til internettet.",
+        "description": "Informational text displayed if a sync operation times out."
+    },
+    "timestamp_s": {
+        "message": "nu",
+        "description": "Brief timestamp for messages sent less than a minute ago. Displayed in the conversation list and message bubble."
+    },
+    "timestamp_m": {
+        "message": "1m",
+        "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble."
+    },
+    "timestamp_h": {
+        "message": "1h",
+        "description": "Brief timestamp for messages sent about one hour ago. Displayed in the conversation list and message bubble."
+    },
+    "hoursAgo": {
+        "message": "$hours$h",
+        "description": "Contracted form of 'X hours ago' which works both for singular and plural",
+        "placeholders": {
+            "hours": {
+                "content": "$1",
+                "example": "2"
+            }
+        }
+    },
+    "minutesAgo": {
+        "message": "$minutes$m",
+        "description": "Contracted form of 'X minutes ago' which works both for singular and plural",
+        "placeholders": {
+            "minutes": {
+                "content": "$1",
+                "example": "10"
+            }
+        }
+    },
+    "justNow": {
+        "message": "nu",
+        "description": "Shown if a message is very recent, less than 60 seconds old"
+    },
+    "timestampFormat_M": {
+        "message": "MMM D",
+        "description": "Timestamp format string for displaying month and day (but not the year) of a date within the current year, ex: use 'MMM D' for 'Aug 8', or 'D MMM' for '8 Aug'."
+    },
+    "messageBodyTooLong": {
+        "message": "Meddelelseslegemet er for langt.",
+        "description": "Shown if the user tries to send more than 64kb of text"
+    },
+    "unblockToSend": {
+        "message": "Fjern blokering af denne kontakt for at sende en besked.",
+        "description": "Brief message shown when trying to message a blocked number"
+    },
+    "unblockGroupToSend": {
+        "message": "Fjern blokering af denne gruppe for at sende en besked.",
+        "description": "Brief message shown when trying to message a blocked group"
+    },
+    "youChangedTheTimer": {
+        "message": "Beskeder sat til at udløbe efter $time$",
+        "description": "Message displayed when you change the message expiration timer in a conversation.",
+        "placeholders": {
+            "time": {
+                "content": "$1",
+                "example": "10m"
+            }
+        }
+    },
+    "timerSetOnSync": {
+        "message": "Beskeder sat til at udløbe efter $time$",
+        "description": "Message displayed when timer is set on initial link of desktop device.",
+        "placeholders": {
+            "time": {
+                "content": "$1",
+                "example": "10m"
+            }
+        }
+    },
+    "theyChangedTheTimer": {
+        "message": "$name$ har sat beskeder til at udløbe efter $time$",
+        "description": "Message displayed when someone else changes the message expiration timer in a conversation.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            },
+            "time": {
+                "content": "$2",
+                "example": "10m"
+            }
+        }
+    },
+    "timerOption_0_seconds": {
+        "message": "fra",
+        "description": "Label for option to turn off message expiration in the timer menu"
+    },
+    "timerOption_5_seconds": {
+        "message": "5 sekunder",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_10_seconds": {
+        "message": "10 sekunder",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_30_seconds": {
+        "message": "30 sekunder",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_1_minute": {
+        "message": "1 minut",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_5_minutes": {
+        "message": "5 minutter",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_30_minutes": {
+        "message": "30 minutter",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_1_hour": {
+        "message": "1 time",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_6_hours": {
+        "message": "6 timer",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_12_hours": {
+        "message": "12 timer",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_1_day": {
+        "message": "1 dag",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_1_week": {
+        "message": "1 uge",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "disappearingMessages": {
+        "message": "Beskeder der forsvinder",
+        "description": "Conversation menu option to enable disappearing messages"
+    },
+    "timerOption_0_seconds_abbreviated": {
+        "message": "fra",
+        "description": "Short format indicating current timer setting in the conversation list snippet"
+    },
+    "timerOption_5_seconds_abbreviated": {
+        "message": "5s",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_10_seconds_abbreviated": {
+        "message": "10s",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_30_seconds_abbreviated": {
+        "message": "30s",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_1_minute_abbreviated": {
+        "message": "1m",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_5_minutes_abbreviated": {
+        "message": "5m",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_30_minutes_abbreviated": {
+        "message": "30m",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_1_hour_abbreviated": {
+        "message": "1h",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_6_hours_abbreviated": {
+        "message": "6h",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_12_hours_abbreviated": {
+        "message": "12h",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_1_day_abbreviated": {
+        "message": "1d",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_1_week_abbreviated": {
+        "message": "1w",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "disappearingMessagesDisabled": {
+        "message": "Forsvindende beskeder slået fra",
+        "description": "Displayed in the left pane when the timer is turned off"
+    },
+    "disabledDisappearingMessages": {
+        "message": "$name$ slog forsvindende beskeder fra",
+        "description": "Displayed in the conversation list when the timer is turned off",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "youDisabledDisappearingMessages": {
+        "message": "Du slog forsvindende beskeder fra",
+        "description": "Displayed in the conversation list when the timer is turned off"
+    },
+    "timerSetTo": {
+        "message": "Timer sat til $time$",
+        "description": "Displayed in the conversation list when the timer is updated by some automatic action, or in the left pane",
+        "placeholders": {
+            "time": {
+                "content": "$1",
+                "example": "1w"
+            }
+        }
+    },
+    "audioNotificationDescription": {
+        "message": "Afspil lydmeddelelse",
+        "description": "Description for audio notification setting"
+    },
+    "safetyNumberChanged": {
+        "message": "Sikkerhedsnummer har ændret sig",
+        "description": "A notification shown in the conversation when a contact reinstalls"
+    },
+    "safetyNumberChangedGroup": {
+        "message": "Sikkerhedsnummer med $name$ har ændret sig",
+        "description": "A notification shown in a group conversation when a contact reinstalls, showing the contact name",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "verifyNewNumber": {
+        "message": "Verificer sikkerhedsnummer",
+        "description": "Label on button included with safety number change notification in the conversation"
+    },
+    "yourSafetyNumberWith": {
+        "message": "Dit sikkerhedsnummer med $name$:",
+        "description": "Heading for safety number view",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "themeLight": {
+        "message": "Lys",
+        "description": "Label text for light theme (normal)"
+    },
+    "themeDark": {
+        "message": "Mørk",
+        "description": "Label text for dark theme"
+    },
+    "themeSystem": {
+        "message": "System",
+        "description": "Label text for system theme"
+    },
+    "noteToSelf": {
+        "message": "Note til dig selv",
+        "description": "Name for the conversation with your own phone number"
+    },
+    "hideMenuBar": {
+        "message": "Skjul menulinje",
+        "description": "Label text for menu bar visibility setting"
+    },
+    "startConversation": {
+        "message": "Start ny samtale...",
+        "description": "Label underneath number a user enters that is not an existing contact"
+    },
+    "newPhoneNumber": {
+        "message": "Indtast et telefonnummer for at tilføje en kontakt.",
+        "description": "Placeholder for adding a new number to a contact"
+    },
+    "invalidNumberError": {
+        "message": "Ugyldigt nummer",
+        "description": "When a person inputs a number that is invalid"
+    },
+    "unlinkedWarning": {
+        "message": "Tilkobl Signal Desktop din mobilenhed på ny for at fortsætte",
+        "description": ""
+    },
+    "unlinked": {
+        "message": "Frakoblet",
+        "description": ""
+    },
+    "relink": {
+        "message": "Tilkobl på ny",
+        "description": ""
+    },
+    "autoUpdateNewVersionTitle": {
+        "message": "Signalopdatering tilgængelig",
+        "description": ""
+    },
+    "autoUpdateNewVersionMessage": {
+        "message": "Der er en ny version af Signal tilgængelig.",
+        "description": ""
+    },
+    "autoUpdateNewVersionInstructions": {
+        "message": "Genstart Signal for at anvende opdateringerne.",
+        "description": ""
+    },
+    "autoUpdateRestartButtonLabel": {
+        "message": "Genstart Signal",
+        "description": ""
+    },
+    "autoUpdateLaterButtonLabel": {
+        "message": "Senere",
+        "description": ""
+    },
+    "leftTheGroup": {
+        "message": "$name$ forlod gruppen",
+        "description": "Shown in the conversation history when a single person leaves the group",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "multipleLeftTheGroup": {
+        "message": "$name$ forlod gruppen",
+        "description": "Shown in the conversation history when multiple people leave the group",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Alice, Bob"
+            }
+        }
+    },
+    "updatedTheGroup": {
+        "message": "Gruppe opdateret",
+        "description": "Shown in the conversation history when someone updates the group"
+    },
+    "titleIsNow": {
+        "message": "Titel er nu '$name$'",
+        "description": "Shown in the conversation history when someone changes the title of the group",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Book Club"
+            }
+        }
+    },
+    "joinedTheGroup": {
+        "message": "$name$ tilsluttede sig gruppen",
+        "description": "Shown in the conversation history when a single person joins the group",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Alice"
+            }
+        }
+    },
+    "multipleJoinedTheGroup": {
+        "message": "$names$ tilsluttede sig gruppen",
+        "description": "Shown in the conversation history when more than one person joins the group",
+        "placeholders": {
+            "names": {
+                "content": "$1",
+                "example": "Alice, Bob"
+            }
+        }
+    },
+    "ConversationListItem--draft-prefix": {
+        "message": "Kladder:",
+        "description": "Prefix shown in italic in conversation view when a draft is saved"
+    },
+    "message--getNotificationText--stickers": {
+        "message": "Sticker message",
+        "description": "Shown in notifications and in the left pane instead of sticker image."
+    },
+    "message--getDescription--unsupported-message": {
+        "message": "Unsupported message",
+        "description": "Shown in notifications and in the left pane when a message has features too new for this signal install."
+    },
+    "message--getDescription--disappearing-media": {
+        "message": "View-once Media",
+        "description": "Shown in notifications and in the left pane after view-once message is deleted."
+    },
+    "message--getDescription--disappearing-photo": {
+        "message": "View-once Photo",
+        "description": "Shown in notifications and in the left pane when a message is a view once photo."
+    },
+    "message--getDescription--disappearing-video": {
+        "message": "View-once Video",
+        "description": "Shown in notifications and in the left pane when a message is a view once video."
+    },
+    "stickers--toast--InstallFailed": {
+        "message": "Sticker pack could not be installed",
+        "description": "Shown in a toast if the user attempts to install a sticker pack and it fails"
+    },
+    "stickers--StickerManager--InstalledPacks": {
+        "message": "Installeret klistermærker",
+        "description": "Shown in the sticker pack manager above your installed sticker packs."
+    },
+    "stickers--StickerManager--InstalledPacks--Empty": {
+        "message": "Ingen klistermærker installeret",
+        "description": "Shown in the sticker pack manager when you don't have any installed sticker packs."
+    },
+    "stickers--StickerManager--BlessedPacks": {
+        "message": "Signal Artist Serie",
+        "description": "Shown in the sticker pack manager above the default sticker packs."
+    },
+    "stickers--StickerManager--BlessedPacks--Empty": {
+        "message": "No Signal Artist stickers available",
+        "description": "Shown in the sticker pack manager when there are no blessed sticker packs available."
+    },
+    "stickers--StickerManager--ReceivedPacks": {
+        "message": "Klistermærker du har modtaget",
+        "description": "Shown in the sticker pack manager above sticker packs which you have received in messages."
+    },
+    "stickers--StickerManager--ReceivedPacks--Empty": {
+        "message": "Klistermærker fra modtaget beskeder vil vises her",
+        "description": "Shown in the sticker pack manager when you have not received any sticker packs in messages."
+    },
+    "stickers--StickerManager--Install": {
+        "message": "Installér",
+        "description": "Shown in the sticker pack manager next to sticker packs which can be installed."
+    },
+    "stickers--StickerManager--Uninstall": {
+        "message": "Uninstall",
+        "description": "Shown in the sticker pack manager next to sticker packs which are already installed."
+    },
+    "stickers--StickerManager--UninstallWarning": {
+        "message": "You may not be able to re-install this sticker pack if you no longer have the source message.",
+        "description": "Shown in the sticker pack manager next to sticker packs which are already installed."
+    },
+    "stickers--StickerManager--Introduction--Image": {
+        "message": "Introducing Stickers: Bandit the Cat",
+        "description": "Alt text on a tooltip image when the user upgrades to a version of Signal supporting stickers."
+    },
+    "stickers--StickerManager--Introduction--Title": {
+        "message": "Introducing Stickers",
+        "description": "Shown as the title on a tooltip when the user upgrades to a version of Signal supporting stickers."
+    },
+    "stickers--StickerManager--Introduction--Body": {
+        "message": "Hvorfor bruge ord når du kan bruge klistermærker?",
+        "description": "Shown as the body on a tooltip when the user upgrades to a version of Signal supporting stickers."
+    },
+    "stickers--StickerPicker--DownloadError": {
+        "message": "Some stickers could not be downloaded.",
+        "description": "Shown in the sticker picker when one or more stickers could not be downloaded."
+    },
+    "stickers--StickerPicker--DownloadPending": {
+        "message": "Installing sticker pack...",
+        "description": "Shown in the sticker picker when one or more stickers are still downloading."
+    },
+    "stickers--StickerPicker--Empty": {
+        "message": "No stickers found",
+        "description": "Shown in the sticker picker when there are no stickers to show."
+    },
+    "stickers--StickerPicker--Hint": {
+        "message": "New sticker packs from your messages are available to install",
+        "description": "Shown in the sticker picker the first time you have received new packs you can install."
+    },
+    "stickers--StickerPicker--NoPacks": {
+        "message": "No sticker packs found",
+        "description": "Shown in the sticker picker when there are no installed sticker packs."
+    },
+    "stickers--StickerPicker--NoRecents": {
+        "message": "Recently used stickers will appear here.",
+        "description": "Shown in the sticker picker when there are no recent stickers to show."
+    },
+    "stickers--StickerPreview--Title": {
+        "message": "Sticker Pack",
+        "description": "The title that appears in the sticker pack preview modal."
+    },
+    "stickers--StickerPreview--Error": {
+        "message": "Error opening sticker pack. Check your internet connection and try again.",
+        "description": "The message that appears in the sticker preview modal when there is an error."
+    },
+    "EmojiPicker--empty": {
+        "message": "No emoji found",
+        "description": "Shown in the emoji picker when a search yields 0 results."
+    },
+    "EmojiPicker--search-placeholder": {
+        "message": "Search Emoji",
+        "description": "Shown as a placeholder inside the emoji picker search field."
+    },
+    "EmojiPicker--skin-tone": {
+        "message": "Skin tone $tone$",
+        "description": "Shown as a tooltip over the emoji tone buttons.",
+        "placeholders": {
+            "status": {
+                "content": "$1",
+                "example": "2"
+            }
+        }
+    },
+    "confirmation-dialog--Cancel": {
+        "message": "Annuller",
+        "description": "Appears on the cancel button in confirmation dialogs."
+    },
+    "Message--unsupported-message": {
+        "message": "$contact$ sent you a message that can't be processed or displayed because it uses a new Signal feature.",
+        "description": "",
+        "placeholders": {
+            "contact": {
+                "content": "$1",
+                "example": "Alice"
+            }
+        }
+    },
+    "Message--unsupported-message-ask-to-resend": {
+        "message": "You can ask $contact$ to re-send this message now that you are using an up-to-date version of Signal.",
+        "description": "",
+        "placeholders": {
+            "contact": {
+                "content": "$1",
+                "example": "Alice"
+            }
+        }
+    },
+    "Message--from-me-unsupported-message": {
+        "message": "One of your devices sent a message that can't be processed or displayed because it uses a new Signal feature.",
+        "description": ""
+    },
+    "Message--from-me-unsupported-message-ask-to-resend": {
+        "message": "Future messages like this will be synchronized now that you are using an up-to-date version of Signal.",
+        "description": ""
+    },
+    "Message--update-signal": {
+        "message": "Update Signal",
+        "description": "Text for a button which will take user to Signal download page"
+    },
+    "Message--tap-to-view-expired": {
+        "message": "Er set",
+        "description": "Text shown on messages with with individual timers, after user has viewed it"
+    },
+    "Message--tap-to-view--outgoing": {
+        "message": "Medie",
+        "description": "Text shown on outgoing messages with with individual timers (inaccessble)"
+    },
+    "Message--tap-to-view--incoming--expired-toast": {
+        "message": "You already viewed this message.",
+        "description": "Shown when user clicks on an expired incoming view-once bubble"
+    },
+    "Message--tap-to-view--outgoing--expired-toast": {
+        "message": "View-once messages are not stored in your conversation history.",
+        "description": "Shown when user clicks on an expired outgoing view-once bubble"
+    },
+    "Message--tap-to-view--incoming": {
+        "message": "Vis billede",
+        "description": "Text shown on photo messages with with individual timers, before user has viewed it"
+    },
+    "Message--tap-to-view--incoming-video": {
+        "message": "Se video",
+        "description": "Text shown on video messages with with individual timers, before user has viewed it"
+    },
+    "Conversation--getDraftPreview--attachment": {
+        "message": "(attachment)",
+        "description": "Text shown in left pane as preview for conversation with saved a saved draft message"
+    },
+    "Conversation--getDraftPreview--quote": {
+        "message": "(quote)",
+        "description": "Text shown in left pane as preview for conversation with saved a saved draft message"
+    },
+    "Conversation--getDraftPreview--draft": {
+        "message": "(draft)",
+        "description": "Text shown in left pane as preview for conversation with saved a saved draft message"
+    },
+    "Keyboard--navigate-by-section": {
+        "message": "Navigate by section",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--previous-conversation": {
+        "message": "Previous conversation",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--next-conversation": {
+        "message": "Next conversation",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--previous-unread-conversation": {
+        "message": "Previous unread conversation",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--next-unread-conversation": {
+        "message": "Next unread conversation",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--preferences": {
+        "message": "Preferences",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--open-conversation-menu": {
+        "message": "Open conversation menu",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--archive-conversation": {
+        "message": "Archive conversation",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--unarchive-conversation": {
+        "message": "Unarchive conversation",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--search": {
+        "message": "Søg",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--search-in-conversation": {
+        "message": "Search in conversation",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--focus-composer": {
+        "message": "Focus composer",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--open-all-media-view": {
+        "message": "Open All Media view",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--open-emoji-chooser": {
+        "message": "Open emoji chooser",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--open-sticker-chooser": {
+        "message": "Open sticker chooser",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--begin-recording-voice-note": {
+        "message": "Begin recording voice note",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--default-message-action": {
+        "message": "Default action for selected message",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--view-details-for-selected-message": {
+        "message": "View selected message details",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--toggle-reply": {
+        "message": "Toggle reply to selected message",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--save-attachment": {
+        "message": "Save attachment from selected message",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--delete-message": {
+        "message": "Delete selected message",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--add-newline": {
+        "message": "Add newline to message",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--expand-composer": {
+        "message": "Expand composer",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--send-in-expanded-composer": {
+        "message": "Send (in expanded composer)",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--attach-file": {
+        "message": "Attach file",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--remove-draft-link-preview": {
+        "message": "Remove draft link preview",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--remove-draft-attachments": {
+        "message": "Remove all draft attachments",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--Key--ctrl": {
+        "message": "Ctrl",
+        "description": "Key shown in shortcut combination in shortcuts guide"
+    },
+    "Keyboard--Key--option": {
+        "message": "Option",
+        "description": "Key shown in shortcut combination in shortcuts guide"
+    },
+    "Keyboard--Key--alt": {
+        "message": "Alt",
+        "description": "Key shown in shortcut combination in shortcuts guide"
+    },
+    "Keyboard--Key--shift": {
+        "message": "Shift",
+        "description": "Key shown in shortcut combination in shortcuts guide"
+    },
+    "Keyboard--Key--enter": {
+        "message": "Enter",
+        "description": "Key shown in shortcut combination in shortcuts guide"
+    },
+    "Keyboard--header": {
+        "message": "Keyboard Shortcuts",
+        "description": "Title header of the keyboard shortcuts guide"
+    },
+    "Keyboard--navigation-header": {
+        "message": "Navigation",
+        "description": "Header of the keyboard shortcuts guide - navigation section"
+    },
+    "Keyboard--messages-header": {
+        "message": "Beskeder",
+        "description": "Header of the keyboard shortcuts guide - messages section"
+    },
+    "Keyboard--composer-header": {
+        "message": "Composer",
+        "description": "Header of the keyboard shortcuts guide - composer section"
+    },
+    "Keyboard--scroll-to-top": {
+        "message": "Scroll to top of list",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--scroll-to-bottom": {
+        "message": "Scroll to bottom of list",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--close-curent-conversation": {
+        "message": "Close current conversation",
+        "description": "Shown in the shortcuts guide"
+    },
+    "close-popup": {
+        "message": "Close Popup",
+        "description": "Used as alt text for any button closing a popup"
+    },
+    "add-image-attachment": {
+        "message": "Add image attachment",
+        "description": "Used in draft attachment list for the big 'add new attachment' button"
+    },
+    "remove-attachment": {
+        "message": "Remove attachment",
+        "description": "Used in draft attachment list to remove an individual attachment"
+    },
+    "backToInbox": {
+        "message": "Back to inbox",
+        "description": "Used as alt-text of button on archived conversations screen"
+    },
+    "conversationArchived": {
+        "message": "Samtale arkiveret",
+        "description": "A toast that shows up when user archives a conversation"
+    },
+    "conversationReturnedToInbox": {
+        "message": "Conversation returned to inbox",
+        "description": "A toast that shows up when the user unarchives a conversation"
+    },
+    "StickerCreator--title": {
+        "message": "Sticker pack creator",
+        "description": "The title of the Sticker Pack Creator window"
+    },
+    "StickerCreator--DropZone--staticText": {
+        "message": "Click to add or drop images here",
+        "description": "Text which appears on the Sticker Creator drop zone when there is no active drag"
+    },
+    "StickerCreator--DropZone--activeText": {
+        "message": "Drop images here",
+        "description": "Text which appears on the Sticker Creator drop zone when there is an active drag"
+    },
+    "StickerCreator--Preview--title": {
+        "message": "Sticker pack",
+        "description": "The 'title' of the sticker pack preview 'modal'"
+    },
+    "StickerCreator--ConfirmDialog--cancel": {
+        "message": "Annuller",
+        "description": "The default text for the confirm dialog cancel button"
+    },
+    "StickerCreator--CopyText--button": {
+        "message": "Kopier",
+        "description": "The text which appears on the copy button for the sticker creator share screen"
+    },
+    "StickerCreator--ShareButtons--facebook": {
+        "message": "Facebook",
+        "description": "Title for Facebook button"
+    },
+    "StickerCreator--ShareButtons--twitter": {
+        "message": "Twitter",
+        "description": "Title for Twitter button"
+    },
+    "StickerCreator--ShareButtons--pinterest": {
+        "message": "Pinterest",
+        "description": "Title for Pinterest button"
+    },
+    "StickerCreator--ShareButtons--whatsapp": {
+        "message": "WhatsApp",
+        "description": "Title for WhatsApp button"
+    },
+    "StickerCreator--AppStage--next": {
+        "message": "Næste",
+        "description": "Default text for the next button on all stages of the sticker creator"
+    },
+    "StickerCreator--AppStage--prev": {
+        "message": "Tilbage",
+        "description": "Default text for the previous button on all stages of the sticker creator"
+    },
+    "StickerCreator--DropStage--title": {
+        "message": "Add your stickers",
+        "description": "Title for the drop stage of the sticker creator"
+    },
+    "StickerCreator--DropStage--help": {
+        "message": "Stickers must be in PNG or WebP format with a transparent background and 512x512 pixels. Recommended margin is 16px.",
+        "description": "Help text for the drop stage of the sticker creator"
+    },
+    "StickerCreator--DropStage--showMargins": {
+        "message": "Show margins",
+        "description": "Text for the show margins toggle on the drop stage of the sticker creator"
+    },
+    "StickerCreator--DropStage--addMore": {
+        "message": "Add $count$ or more",
+        "description": "Text to show user how many more stickers they must add",
+        "placeholders": {
+            "hashtag": {
+                "content": "$1",
+                "example": "4"
+            }
+        }
+    },
+    "StickerCreator--EmojiStage--title": {
+        "message": "Add an emoji to each sticker",
+        "description": "Title for the drop stage of the sticker creator"
+    },
+    "StickerCreator--EmojiStage--help": {
+        "message": "This allows us to suggest stickers to you as you're messaging.",
+        "description": "Help text for the drop stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--title": {
+        "message": "Just a few more details...",
+        "description": "Title for the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--Field--title": {
+        "message": "Title",
+        "description": "Label for the title input of the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--Field--author": {
+        "message": "Author",
+        "description": "Label for the author input of the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--Field--cover": {
+        "message": "Cover image",
+        "description": "Label for the cover image picker of the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--Field--cover--help": {
+        "message": "This is the image that will show up when you share your sticker pack",
+        "description": "Help text for the cover image picker of the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--ConfirmDialog--title": {
+        "message": "Are you sure you want to upload your sticker pack?",
+        "description": "Title for the confirm dialog on the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--ConfirmDialog--confirm": {
+        "message": "Upload",
+        "description": "Text for the upload button in the confirmation dialog on the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--ConfirmDialog--text": {
+        "message": "You will no longer be able to make edits or delete after creating a sticker pack.",
+        "description": "The text inside the confirmation dialog on the meta stage of the sticker creator"
+    },
+    "StickerCreator--UploadStage--title": {
+        "message": "Creating your sticker pack",
+        "description": "Title for the upload stage of the sticker creator"
+    },
+    "StickerCreator--UploadStage-uploaded": {
+        "message": "$count$ of $total$ uploaded",
+        "description": "Title for the upload stage of the sticker creator",
+        "placeholders": {
+            "count": {
+                "content": "$1",
+                "example": "3"
+            },
+            "total": {
+                "content": "$2",
+                "example": "20"
+            }
+        }
+    },
+    "StickerCreator--ShareStage--title": {
+        "message": "Congratulations! You created a sticker pack.",
+        "description": "Title for the share stage of the sticker creator"
+    },
+    "StickerCreator--ShareStage--help": {
+        "message": "Access your new stickers through the sticker icon, or share with your friends using the link below.",
+        "description": "Help text for the share stage of the sticker creator"
+    },
+    "StickerCreator--ShareStage--callToAction": {
+        "message": "Use the hashtag $hashtag$ to help other people find the URLs for any custom sticker packs that you would like to make publicly accessible.",
+        "description": "Call to action text for the share stage of the sticker creator",
+        "placeholders": {
+            "hashtag": {
+                "content": "$1",
+                "example": "<strong>#makeprivacystick</strong>"
+            }
+        }
+    },
+    "StickerCreator--ShareStage--copyTitle": {
+        "message": "Sticker Pack URL",
+        "description": "Title for the copy button on the share stage of the sticker creator"
+    },
+    "StickerCreator--ShareStage--close": {
+        "message": "Luk",
+        "description": "Text for the close button on the share stage of the sticker creator"
+    },
+    "StickerCreator--ShareStage--createAnother": {
+        "message": "Create another sticker pack",
+        "description": "Text for the create another sticker pack button on the share stage of the sticker creator"
+    },
+    "StickerCreator--ShareStage--socialMessage": {
+        "message": "Check out this new sticker pack I created for Signal. #makeprivacystick",
+        "description": "Text which is shared to social media platforms for sticker packs"
+    },
+    "StickerCreator--Toasts--imagesAdded": {
+        "message": "$count$ image(s) added",
+        "description": "Text for the toast when images are added to the sticker creator",
+        "placeholders": {
+            "count": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "StickerCreator--Toasts--animated": {
+        "message": "Animated stickers are not currently supported",
+        "description": "Text for the toast when an image that is animated was dropped on the sticker creator"
+    },
+    "StickerCreator--Toasts--tooLarge": {
+        "message": "Dropped image is too large",
+        "description": "Text for the toast when an image that is too large was dropped on the sticker creator"
+    },
+    "StickerCreator--Toasts--errorProcessing": {
+        "message": "Error processing image",
+        "description": "Text for the toast when an image cannot be processed was dropped on the sticker creator"
+    },
+    "StickerCreator--Toasts--errorUploading": {
+        "message": "Error uploading stickers: $message$",
+        "description": "Text for the toast when a sticker pack cannot be uploaded",
+        "placeholders": {
+            "message": {
+                "content": "$1",
+                "example": "Not connected"
+            }
+        }
+    },
+    "StickerCreator--Toasts--linkedCopied": {
+        "message": "Link copied",
+        "description": "Text for the toast when a link for sharing is copied from the Sticker Creator"
+    },
+    "StickerCreator--StickerPreview--light": {
+        "message": "My sticker in light theme",
+        "description": "Text for the sticker preview for the light theme"
+    },
+    "StickerCreator--StickerPreview--dark": {
+        "message": "My sticker in dark theme",
+        "description": "Text for the sticker preview for the dark theme"
+    },
+    "StickerCreator--Authentication--error": {
+        "message": "Please set up Signal on your phone and desktop to use the Sticker Pack Creator",
+        "description": "The error message which appears when the user has not linked their account and attempts to use the Sticker Creator"
+    },
+    "privacyPolicy": {
+        "message": "Vilkår og privatlivspolitik",
+        "description": "Shown in the about box for the link to https://signal.org/legal"
+    }
+}

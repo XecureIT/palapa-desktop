@@ -1,0 +1,22 @@
+@import '../stylesheets/variables';
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  align-content: stretch;
+  width: 100vw;
+  height: 100vh;
+}
+
+.panel {
+  flex: 1;
+  padding: 16px;
+  height: 100%;
+  overflow: auto;
+}
+
+.dark-theme {
+  background-color: $color-gray-95;
+  color: $color-gray-05;
+}

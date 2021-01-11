@@ -1,0 +1,2184 @@
+{
+    "copyErrorAndQuit": {
+        "message": "複製錯誤並離開。",
+        "description": "Shown in the top-level error popup, allowing user to copy the error text and close the app"
+    },
+    "unknownGroup": {
+        "message": "未知的群組",
+        "description": "Shown as the name of a group if we don't have any information about it"
+    },
+    "databaseError": {
+        "message": "資料庫錯誤",
+        "description": "Shown in a popup if the database cannot start up properly"
+    },
+    "deleteAndRestart": {
+        "message": "刪除所有資料並重新開始。",
+        "description": "Shown in a popup if the database cannot start up properly; allows user to dalete database and restart"
+    },
+    "mainMenuFile": {
+        "message": "檔案（&F）",
+        "description": "The label that is used for the File menu in the program main menu. The '&' indicates that the following letter will be used as the keyboard 'shortcut letter' for accessing the menu with the Alt-<letter> combination."
+    },
+    "mainMenuCreateStickers": {
+        "message": "製作/上傳貼圖包",
+        "description": "The label that is used for the Create/upload sticker pack option in the File menu in the program main menu. The '&' indicates that the following letter will be used as the keyboard 'shortcut letter' for accessing the menu with the Alt-<letter> combination."
+    },
+    "mainMenuEdit": {
+        "message": "編輯（&E）",
+        "description": "The label that is used for the Edit menu in the program main menu. The '&' indicates that the following letter will be used as the keyboard 'shortcut letter' for accessing the menu with the Alt-<letter> combination."
+    },
+    "mainMenuView": {
+        "message": "檢視 （&V）",
+        "description": "The label that is used for the View menu in the program main menu. The '&' indicates that the following letter will be used as the keyboard 'shortcut letter' for accessing the menu with the Alt-<letter> combination."
+    },
+    "mainMenuWindow": {
+        "message": "視窗（&W）",
+        "description": "The label that is used for the Window menu in the program main menu. The '&' indicates that the following letter will be used as the keyboard 'shortcut letter' for accessing the menu with the Alt-<letter> combination."
+    },
+    "mainMenuHelp": {
+        "message": "協助（&H）",
+        "description": "The label that is used for the Help menu in the program main menu. The '&' indicates that the following letter will be used as the keyboard 'shortcut letter' for accessing the menu with the Alt-<letter> combination."
+    },
+    "mainMenuSettings": {
+        "message": "偏好設定…",
+        "description": "The label that is used for the Preferences menu in the program main menu. This should be consistent with the standard naming for ‘Preferences’ on the operating system."
+    },
+    "appMenuHide": {
+        "message": "隱藏",
+        "description": "Application menu command to hide the window"
+    },
+    "appMenuHideOthers": {
+        "message": "隱藏其它",
+        "description": "Application menu command to hide all other windows"
+    },
+    "appMenuUnhide": {
+        "message": "顯示全部",
+        "description": "Application menu command to show all application windows"
+    },
+    "appMenuQuit": {
+        "message": "關閉 Signal",
+        "description": "Application menu command to close the application"
+    },
+    "editMenuUndo": {
+        "message": "復原",
+        "description": "Edit menu command to remove recently-typed text"
+    },
+    "editMenuRedo": {
+        "message": "重做",
+        "description": "Edit menu command to restore previously undone typed text"
+    },
+    "editMenuCut": {
+        "message": "裁剪",
+        "description": "Edit menu command to remove selected text and add it to clipboard"
+    },
+    "editMenuCopy": {
+        "message": "複製",
+        "description": "Edit menu command to add selected text to clipboard"
+    },
+    "editMenuPaste": {
+        "message": "貼上",
+        "description": "Edit menu command to insert text from clipboard at cursor location"
+    },
+    "editMenuPasteAndMatchStyle": {
+        "message": "貼上並調整格式",
+        "description": "Edit menu command to insert text from clipboard at cursor location, taking only text and not style information"
+    },
+    "editMenuDelete": {
+        "message": "刪除",
+        "description": "Edit menu command to remove the selected text"
+    },
+    "editMenuSelectAll": {
+        "message": "選取全部",
+        "description": "Edit menu comand to select all of the text in selected text box"
+    },
+    "editMenuStartSpeaking": {
+        "message": "開始說話",
+        "description": "Edit menu item under 'speech' to start dictation"
+    },
+    "editMenuStopSpeaking": {
+        "message": "停止說話",
+        "description": "Edit menu item under 'speech' to stop dictation"
+    },
+    "windowMenuClose": {
+        "message": "關閉視窗",
+        "description": "Window menu command to close the current window"
+    },
+    "windowMenuMinimize": {
+        "message": "最小化",
+        "description": "Window menu command to minimize the current window"
+    },
+    "windowMenuZoom": {
+        "message": "縮放",
+        "description": "Window menu command to make the current window the size of the whole screen"
+    },
+    "windowMenuBringAllToFront": {
+        "message": "全部移到前面",
+        "description": "Window menu command to bring all windows of current applicatinon to front"
+    },
+    "viewMenuResetZoom": {
+        "message": "實際大小",
+        "description": "View menu command to go back to the default zoom"
+    },
+    "viewMenuZoomIn": {
+        "message": "拉近",
+        "description": "View menu command to make everything bigger"
+    },
+    "viewMenuZoomOut": {
+        "message": "拉出",
+        "description": "View menu command to make everything smaller"
+    },
+    "viewMenuToggleFullScreen": {
+        "message": "切換全螢幕",
+        "description": "View menu command to enter or leave Full Screen mode"
+    },
+    "viewMenuToggleDevTools": {
+        "message": "切換開發者工具",
+        "description": "View menu command to show or hide the developer tools"
+    },
+    "menuSetupWithImport": {
+        "message": "設定匯入",
+        "description": "When the application is not yet set up, menu option to start up the import sequence"
+    },
+    "menuSetupAsNewDevice": {
+        "message": "設定新裝置",
+        "description": "When the application is not yet set up, menu option to start up the set up as fresh device"
+    },
+    "menuSetupAsStandalone": {
+        "message": "設定為獨立的裝置",
+        "description": "Only available on development modes, menu option to open up the standalone device setup sequence"
+    },
+    "avatarMenuViewArchive": {
+        "message": "檢視封存紀錄",
+        "description": "One of the menu options available in the Avatar Popup menu"
+    },
+    "loading": {
+        "message": "載入中...",
+        "description": "Message shown on the loading screen before we've loaded any messages"
+    },
+    "optimizingApplication": {
+        "message": "正在最佳化應用程式...",
+        "description": "Message shown on the loading screen while we are doing application optimizations"
+    },
+    "migratingToSQLCipher": {
+        "message": "優化訊息... $status$ 狀態完成。",
+        "description": "Message shown on the loading screen while we are doing application optimizations",
+        "placeholders": {
+            "status": {
+                "content": "$1",
+                "example": "45/200"
+            }
+        }
+    },
+    "archivedConversations": {
+        "message": "封存對話",
+        "description": "Shown in place of the search box when showing archived conversation list"
+    },
+    "archiveHelperText": {
+        "message": "這些對話已經封存，並只有在收到新訊息時才會顯示在收件箱中。",
+        "description": "Shown at the top of the archived converations list in the left pane"
+    },
+    "archiveConversation": {
+        "message": "封存對話",
+        "description": "Shown in menu for conversation, and moves conversation out of main conversation list"
+    },
+    "moveConversationToInbox": {
+        "message": "將對話移動到收件夾",
+        "description": "Undoes Archive Conversation action, and moves archived conversation back to the main conversation list"
+    },
+    "chooseDirectory": {
+        "message": "選擇資料夾",
+        "description": "Button to allow the user to find a folder on disk"
+    },
+    "chooseFile": {
+        "message": "選擇檔案",
+        "description": "Button to allow the user to find a file on disk"
+    },
+    "loadDataHeader": {
+        "message": "載入你的資料",
+        "description": "Header shown on the first screen in the data import process"
+    },
+    "loadDataDescription": {
+        "message": "您剛完成匯出流程，您的聯絡人與訊息正在電腦上耐心等待。選擇包含您儲存的 Signal 資料的資料夾。",
+        "description": "Introduction to the process of importing messages and contacts from disk"
+    },
+    "importChooserTitle": {
+        "message": "選擇匯出資料的資料夾",
+        "description": "Title of the popup window used to select data previously exported"
+    },
+    "importErrorHeader": {
+        "message": "發生一些錯誤！",
+        "description": "Header of the error screen after a failed import"
+    },
+    "importingHeader": {
+        "message": "正在載入聯絡人與訊息",
+        "description": "Header of screen shown as data is import"
+    },
+    "importErrorFirst": {
+        "message": " 確認您選取了存放 Signal 資料的正確目錄夾，它的名稱應是以 'Signal Export.' 為前綴。您也可以自 Chrome App 取得自己的資料複本。",
+        "description": "Message shown if the import went wrong; first paragraph"
+    },
+    "importErrorSecond": {
+        "message": "如果這些步驟不奏效，您可以提交一份除錯記錄(位於「檢視」-> 「除錯記錄」)，好讓我們來協助你搬移資料。",
+        "description": "Message shown if the import went wrong; second paragraph"
+    },
+    "importAgain": {
+        "message": "選擇資料夾及再試一次",
+        "description": "Button shown if the user runs into an error during import, allowing them to start over"
+    },
+    "importCompleteHeader": {
+        "message": "成功！",
+        "description": "Header shown on the screen at the end of a successful import process"
+    },
+    "importCompleteStartButton": {
+        "message": "開始使用 Signal Desktop",
+        "description": "Button shown at end of successful import process, nothing left but a restart"
+    },
+    "importCompleteLinkButton": {
+        "message": "此裝置與您的手機連結",
+        "description": "Button shown at end of successful 'light' import process, so the standard linking process still needs to happen"
+    },
+    "selectedLocation": {
+        "message": "你已選擇的位置",
+        "description": "Message shown as the export location if we didn't capture the target directory"
+    },
+    "upgradingDatabase": {
+        "message": "正在升級資料庫。這也許會花一些時間...",
+        "description": "Message shown on the loading screen when we're changing database structure on first run of a new version"
+    },
+    "loadingMessages": {
+        "message": "正在載入訊息中。目前有 $count$ 則...",
+        "description": "Message shown on the loading screen when we're catching up on the backlog of messages",
+        "placeholders": {
+            "count": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "me": {
+        "message": "我",
+        "description": "The label for yourself when shown in a group member list"
+    },
+    "view": {
+        "message": "檢視",
+        "description": "Used as a label on a button allowing user to see more information"
+    },
+    "youLeftTheGroup": {
+        "message": "你已離開此群組",
+        "description": "Displayed when a user can't send a message because they have left the group"
+    },
+    "scrollDown": {
+        "message": "捲動至底下對話",
+        "description": "Alt text for button to take user down to bottom of conversation, shown when user scrolls up"
+    },
+    "messagesBelow": {
+        "message": "底下有新訊息",
+        "description": "Alt text for button to take user down to bottom of conversation with more than one message out of screen"
+    },
+    "unreadMessage": {
+        "message": "1 則未讀訊息",
+        "description": "Text for unread message separator, just one message"
+    },
+    "unreadMessages": {
+        "message": "$count$ 則未讀訊息",
+        "description": "Text for unread message separator, with count",
+        "placeholders": {
+            "count": {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "youMarkedAsVerified": {
+        "message": "您標記了與 $name$ 的安全碼為已驗證",
+        "description": "Shown in the conversation history when the user marks a contact as verified.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "youMarkedAsNotVerified": {
+        "message": "您標記了與 $name$ 的安全碼為未驗證狀態",
+        "description": "Shown in the conversation history when the user marks a contact as not verified, whether on the Safety Number screen or by dismissing a banner or dialog.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "youMarkedAsVerifiedOtherDevice": {
+        "message": "你標記了 $name$ 在另一個設備的安全碼為已驗證",
+        "description": "Shown in the conversation history when we discover that the user marked a contact as verified on another device.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "youMarkedAsNotVerifiedOtherDevice": {
+        "message": "您標記了  $name$ 在另一台設備上的安全碼為未驗證狀態",
+        "description": "Shown in the conversation history when we discover that the user marked a contact as not verified on another device.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "membersNeedingVerification": {
+        "message": "自從上次驗證後，你與這個群組成員的安全碼已經產生變動。點擊一個群組成員，來查看你與他們的安全碼。",
+        "description": "When there are multiple previously-verified group members with safety number changes, a banner will be shown. The list of contacts with safety number changes is shown, and this text introduces that list."
+    },
+    "changedSinceVerifiedMultiple": {
+        "message": "你與這個多個群組成員的安全碼產生變動。這有可能是有不明人士試圖攔截你的通訊，或是，只因為他們重新安裝 Signal。",
+        "description": "Shown on confirmation dialog when user attempts to send a message"
+    },
+    "changedSinceVerified": {
+        "message": "自上次驗證後，你與 $name$ 的安全碼已經產生變動。這有可能是有不明人士試圖攔截您的通訊，或是，只因為 $name$ 重新安裝 Signal。",
+        "description": "Shown on confirmation dialog when user attempts to send a message",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "changedRightAfterVerify": {
+        "message": "你試著驗證的安全已經改變，請檢視你與 $name$ 的新安全碼。記得，這個變動可能是有不明人士試圖攔截你的通訊，或是，只因為 $name$ 重新安裝 Signal。",
+        "description": "Shown on the safety number screen when the user has selected to verify/unverify a contact's safety number, and we immediately discover a safety number change",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "changedRecentlyMultiple": {
+        "message": "你與多個群組成員的安全碼在最近已經有了變動。這有可能是有不明人士試圖攔截你的通訊，或是，只因為他們重新安裝 Signal。",
+        "description": "Shown on confirmation dialog when user attempts to send a message"
+    },
+    "changedRecently": {
+        "message": "你與 $name$ 的安全碼在最近已經有了變動。這有可能是有不明人士試圖攔截你的通訊，或是，只因為$name$ 重新安裝 Signal。",
+        "description": "Shown on confirmation dialog when user attempts to send a message",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "identityKeyErrorOnSend": {
+        "message": "你的安全號碼$name$已經改變，這可能意味著某人試圖攔截你的通訊$name$只是重新安裝了Signal。此聯繫人驗證您的安全號碼。",
+        "description": "Shown when user clicks on a failed recipient in the message detail view after an identity key change",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "sendAnyway": {
+        "message": "無論如何都送出",
+        "description": "Used on a warning dialog to make it clear that it might be risky to send the message."
+    },
+    "noLongerVerified": {
+        "message": "你與 $name$ 的安全已經產生變動，並且不再是經驗證過的。點擊來顯示。",
+        "description": "Shown in converation banner when user's safety number has changed, but they were previously verified.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "multipleNoLongerVerified": {
+        "message": "你與群組中的多個成員的安全碼已經有了變動，不再是經驗證過的。點擊來顯示。",
+        "description": "Shown in conversation banner when more than one group member's safety number has changed, but they were previously verified."
+    },
+    "debugLogExplanation": {
+        "message": "這個紀錄將被公開張貼在線上給貢獻者瀏覽。在送出前，你可以檢視及修改。",
+        "description": ""
+    },
+    "debugLogError": {
+        "message": "上傳出問題目! 請考慮手動加入活動記錄檔來查錯",
+        "description": ""
+    },
+    "reportIssue": {
+        "message": "回報問題",
+        "description": "Link to open the issue tracker"
+    },
+    "gotIt": {
+        "message": "了解！",
+        "description": "Label for a button that dismisses a dialog. The user clicks it to confirm that they understand the message in the dialog."
+    },
+    "submit": {
+        "message": "送出",
+        "description": ""
+    },
+    "acceptNewKey": {
+        "message": "接受",
+        "description": "Label for a button to accept a new safety number"
+    },
+    "verify": {
+        "message": "標記為已驗證",
+        "description": ""
+    },
+    "unverify": {
+        "message": "標記為未驗證",
+        "description": ""
+    },
+    "isVerified": {
+        "message": "你已驗證與 $name$ 的安全碼。",
+        "description": "Summary state shown at top of the safety number screen if user has verified contact.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "isNotVerified": {
+        "message": "你還沒驗證與 $name$ 的安全碼。",
+        "description": "Summary state shown at top of the safety number screen if user has not verified contact.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "verified": {
+        "message": "已驗證",
+        "description": ""
+    },
+    "newIdentity": {
+        "message": "新的安全碼",
+        "description": "Header for a key change dialog"
+    },
+    "identityChanged": {
+        "message": "你與這個聯絡人的安全碼產生變動。這有可能是有不明人士試圖攔截你的通訊，或是，只因為這個聯絡人重新安裝 Signal。你能驗證下方新的安全碼。",
+        "description": ""
+    },
+    "incomingError": {
+        "message": "在處理來訊時出現錯誤",
+        "description": ""
+    },
+    "media": {
+        "message": "媒體",
+        "description": "Header of the default pane in the media gallery, showing images and videos"
+    },
+    "mediaEmptyState": {
+        "message": "您在本次對話中無任何媒體檔案",
+        "description": "Message shown to user in the media gallery when there are no messages with media attachments (images or video)"
+    },
+    "documents": {
+        "message": "文件",
+        "description": "Header of the secondary pane in the media gallery, showing every non-media attachment"
+    },
+    "documentsEmptyState": {
+        "message": "您在本次對話中無任何文件檔案",
+        "description": "Message shown to user in the media gallery when there are no messages with document attachments (anything other than images or video)"
+    },
+    "today": {
+        "message": "今天",
+        "description": "Section header in the media gallery"
+    },
+    "yesterday": {
+        "message": "昨天",
+        "description": "Section header in the media gallery"
+    },
+    "thisWeek": {
+        "message": "本週",
+        "description": "Section header in the media gallery"
+    },
+    "thisMonth": {
+        "message": "本月",
+        "description": "Section header in the media gallery"
+    },
+    "unsupportedAttachment": {
+        "message": "不支援的附加檔案類型。點擊儲存。",
+        "description": "Displayed for incoming unsupported attachment"
+    },
+    "clickToSave": {
+        "message": "點擊儲存",
+        "description": "Hover text for attachment filenames"
+    },
+    "unnamedFile": {
+        "message": "未命名的檔案",
+        "description": "Hover text for attachment filenames"
+    },
+    "voiceMessage": {
+        "message": "語音訊息",
+        "description": "Name for a voice message attachment"
+    },
+    "dangerousFileType": {
+        "message": "因安全考量無法傳送此類附件\n",
+        "description": "Shown in toast when user attempts to send .exe file, for example"
+    },
+    "loadingPreview": {
+        "message": "讀取預覽中...",
+        "description": "Shown while Signal Desktop is fetching metadata for a url in composition area"
+    },
+    "stagedPreviewThumbnail": {
+        "message": "$domain$ 的草稿縮圖連結預覽",
+        "description": "Shown while Signal Desktop is fetching metadata for a url in composition area",
+        "placeholders": {
+            "path": {
+                "content": "$1",
+                "example": "instagram.com"
+            }
+        }
+    },
+    "previewThumbnail": {
+        "message": "$domain$ 的縮圖連結預覽",
+        "description": "Shown while Signal Desktop is fetching metadata for a url in composition area",
+        "placeholders": {
+            "path": {
+                "content": "$1",
+                "example": "instagram.com"
+            }
+        }
+    },
+    "stagedImageAttachment": {
+        "message": "草稿圖片附檔: $path$",
+        "description": "Alt text for staged attachments",
+        "placeholders": {
+            "path": {
+                "content": "$1",
+                "example": "dog.jpg"
+            }
+        }
+    },
+    "oneNonImageAtATimeToast": {
+        "message": "當包含的附檔不是圖片，每個訊息限制只能有一個附檔。",
+        "description": "An error popup when the user has attempted to add an attachment"
+    },
+    "cannotMixImageAdnNonImageAttachments": {
+        "message": "你無法在一個訊息中，同時附上非圖片及圖片檔案。",
+        "description": "An error popup when the user has attempted to add an attachment"
+    },
+    "maximumAttachments": {
+        "message": "你無法在這個訊息中新增更多的附檔。",
+        "description": "An error popup when the user has attempted to add an attachment"
+    },
+    "fileSizeWarning": {
+        "message": "抱歉，選擇的檔案大小超過訊息限制",
+        "description": ""
+    },
+    "unableToLoadAttachment": {
+        "message": "無法上傳所選附件。",
+        "description": ""
+    },
+    "disconnected": {
+        "message": "已斷線",
+        "description": "Displayed when the desktop client cannot connect to the server."
+    },
+    "connecting": {
+        "message": "連線中",
+        "description": "Displayed when the desktop client is currently connecting to the server."
+    },
+    "offline": {
+        "message": "離線",
+        "description": "Displayed when the desktop client has no network connection."
+    },
+    "checkNetworkConnection": {
+        "message": "檢查你的網路連線。",
+        "description": "Obvious instructions for when a user's computer loses its network connection"
+    },
+    "attemptingReconnection": {
+        "message": "嘗試在 $reconnect_duration_in_seconds$ 秒內重新連線",
+        "description": "",
+        "placeholders": {
+            "reconnect_duration_in_seconds": {
+                "content": "$1",
+                "example": "10"
+            }
+        }
+    },
+    "submitDebugLog": {
+        "message": "除錯紀錄",
+        "description": "Menu item and header text for debug log modal (sentence case)"
+    },
+    "debugLog": {
+        "message": "除錯日誌",
+        "description": "View menu item to open the debug log (title case)"
+    },
+    "helpMenuShowKeyboardShortcuts": {
+        "message": "顯示鍵盤快捷鍵",
+        "description": "Item under the help menu, pops up a screen showing the application's keyboard shortcuts"
+    },
+    "goToReleaseNotes": {
+        "message": "前往發行紀錄",
+        "description": "Item under the help menu, takes you to GitHub page for release notes"
+    },
+    "goToForums": {
+        "message": "前往論壇",
+        "description": "Item under the Help menu, takes you to the forums"
+    },
+    "goToSupportPage": {
+        "message": "前往支援頁面",
+        "description": "Item under the Help menu, takes you to the support page"
+    },
+    "menuReportIssue": {
+        "message": "回報問題",
+        "description": "Item under the Help menu, takes you to GitHub new issue form (title case)"
+    },
+    "signalDesktopPreferences": {
+        "message": "Signal Desktop設定",
+        "description": "Title of the window that pops up with Signal Desktop preferences in it"
+    },
+    "signalDesktopStickerCreator": {
+        "message": "貼圖包製作器",
+        "description": "Title of the window that pops up with Signal Desktop preferences in it"
+    },
+    "aboutDesktop": {
+        "message": "關於 Signal Desktop",
+        "description": "Item under the Help menu, which opens a small about window"
+    },
+    "speech": {
+        "message": "語音",
+        "description": "Item under the Edit menu, with 'start/stop speaking' items below it"
+    },
+    "show": {
+        "message": "顯示",
+        "description": "Command under Window menu, to show the window"
+    },
+    "hide": {
+        "message": "隱藏",
+        "description": "Command in the tray icon menu, to hide the window"
+    },
+    "quit": {
+        "message": "離開",
+        "description": "Command in the tray icon menu, to quit the application"
+    },
+    "signalDesktop": {
+        "message": "Signal Desktop",
+        "description": "Tooltip for the tray icon"
+    },
+    "search": {
+        "message": "搜尋",
+        "description": "Placeholder text in the search input"
+    },
+    "searchIn": {
+        "message": "在$conversationName$搜尋",
+        "description": "Shown in the search box before text is entered when searching in a specific conversation",
+        "placeholders": {
+            "conversationName": {
+                "content": "$1",
+                "example": "Friends"
+            }
+        }
+    },
+    "noSearchResults": {
+        "message": "無 \"$searchTerm$\" 的搜尋結果",
+        "description": "Shown in the search left pane when no results were found",
+        "placeholders": {
+            "searchTerm": {
+                "content": "$1",
+                "example": "dog"
+            }
+        }
+    },
+    "noSearchResultsInConversation": {
+        "message": "在$conversationName$找不到\"$searchTerm$\"的結果",
+        "description": "Shown in the search left pane when no results were found",
+        "placeholders": {
+            "searchTerm": {
+                "content": "$2",
+                "example": "Friends"
+            }
+        }
+    },
+    "conversationsHeader": {
+        "message": "對話",
+        "description": "Shown to separate the types of search results"
+    },
+    "contactsHeader": {
+        "message": "聯絡人",
+        "description": "Shown to separate the types of search results"
+    },
+    "messagesHeader": {
+        "message": "訊息",
+        "description": "Shown to separate the types of search results"
+    },
+    "welcomeTo": {
+        "message": "歡迎來到 Signal",
+        "description": ""
+    },
+    "selectAContact": {
+        "message": "選擇一個聯絡人或群組開始聊天。",
+        "description": ""
+    },
+    "typingAlt": {
+        "message": "本次對話中輸入動畫",
+        "description": "Used as the 'title' attibute for the typing animation"
+    },
+    "contactAvatarAlt": {
+        "message": "聯絡人 $name$ 頭像圖示",
+        "description": "Used in the alt tag for the image avatar of a contact",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "sendMessageToContact": {
+        "message": "傳送訊息",
+        "description": "Shown when you are sent a contact and that contact has a signal account"
+    },
+    "home": {
+        "message": "主頁",
+        "description": "Shown on contact detail screen as a label for an address/phone/email"
+    },
+    "work": {
+        "message": "工作",
+        "description": "Shown on contact detail screen as a label for an address/phone/email"
+    },
+    "mobile": {
+        "message": "手機",
+        "description": "Shown on contact detail screen as a label for aa phone or email"
+    },
+    "email": {
+        "message": "email",
+        "description": "Generic label shown if contact email has custom type but no label"
+    },
+    "phone": {
+        "message": "電話",
+        "description": "Generic label shown if contact phone has custom type but no label"
+    },
+    "address": {
+        "message": "地址\n",
+        "description": "Generic label shown if contact address has custom type but no label"
+    },
+    "poBox": {
+        "message": "郵箱號碼",
+        "description": "When rendering an address, used to provide context to a post office box"
+    },
+    "downloading": {
+        "message": "下載中...",
+        "description": "Shown in the message bubble while a long message attachment is being downloaded"
+    },
+    "downloadAttachment": {
+        "message": "下載附件",
+        "description": "Shown in a message's triple-dot menu if there isn't room for a dedicated download button"
+    },
+    "replyToMessage": {
+        "message": "回覆訊息",
+        "description": "Shown in triple-dot menu next to message to allow user to start crafting a message with a quotation"
+    },
+    "originalMessageNotFound": {
+        "message": "找不到原始訊息",
+        "description": "Shown in quote if reference message was not found as message was initially downloaded and processed"
+    },
+    "originalMessageNotAvailable": {
+        "message": "原始訊息無法再取得",
+        "description": "Shown in toast if user clicks on quote that references message no longer in database"
+    },
+    "messageFoundButNotLoaded": {
+        "message": "找到了原始訊息，但未載入，向上滑動以進行載入。",
+        "description": "Shown in toast if user clicks on quote references messages not loaded in view, but in database"
+    },
+    "voiceNoteMustBeOnlyAttachment": {
+        "message": "語音留言必須只有一個附件。",
+        "description": "Shown in toast if tries to record a voice note with any staged attachments"
+    },
+    "attachmentSaved": {
+        "message": "附檔已經被儲存。點擊以在資料夾中顯示。",
+        "description": "Shown after user selects to save to downloads",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "proof.jpg"
+            }
+        }
+    },
+    "you": {
+        "message": "你",
+        "description": "In Android theme, shown in quote if you or someone else replies to you"
+    },
+    "replyingTo": {
+        "message": "正在回覆給 $name$",
+        "description": "Shown in iOS theme when you or someone quotes to a message which is not from you",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "audioPermissionNeeded": {
+        "message": "要傳送語音訊息，須授權 Siganl 桌面版可以使用您設備的麥克風。 ",
+        "description": "Shown if the user attempts to send an audio message without audio permssions turned on"
+    },
+    "allowAccess": {
+        "message": "允許存取",
+        "description": "Button shown in popup asking to enable microphon/video permissions to send audio messages"
+    },
+    "showSettings": {
+        "message": "顯示設定",
+        "description": "A button shown in dialog requesting the user to turn on audio permissions"
+    },
+    "audio": {
+        "message": "聲音",
+        "description": "Shown in a quotation of a message containing an audio attachment if no text was originally provided with that attachment"
+    },
+    "video": {
+        "message": "影片",
+        "description": "Shown in a quotation of a message containing a video if no text was originally provided with that video"
+    },
+    "photo": {
+        "message": "照片",
+        "description": "Shown in a quotation of a message containing a photo if no text was originally provided with that image"
+    },
+    "cannotUpdate": {
+        "message": "無法升級",
+        "description": "Shown as the title of our update error dialogs on windows"
+    },
+    "cannotUpdateDetail": {
+        "message": "Signal 電腦版無法升級，但是線上有新版提供。請到 https://signal.org/download 網站手動下載及安裝。也煩請聯繫支援部門告知這個問題。",
+        "description": "Shown if a general error happened while trying to install update package"
+    },
+    "readOnlyVolume": {
+        "message": "Signal 電腦版似乎被 macOS  隔離，所以無法自動更新。請嘗試將 Signal.app 透過 Finder 移動到 /應用軟體。",
+        "description": "Shown on MacOS if running on a read-only volume and we cannot update"
+    },
+    "ok": {
+        "message": "好",
+        "description": ""
+    },
+    "cancel": {
+        "message": "取消",
+        "description": ""
+    },
+    "failedToSend": {
+        "message": "無法傳送給一些接收者。檢查你的網路連線。",
+        "description": ""
+    },
+    "error": {
+        "message": "錯誤",
+        "description": ""
+    },
+    "messageDetail": {
+        "message": "詳細訊息",
+        "description": ""
+    },
+    "delete": {
+        "message": "刪除",
+        "description": ""
+    },
+    "deleteWarning": {
+        "message": "您確定嗎？點擊「刪除」只會自本台設備上永久地移除此訊息。",
+        "description": ""
+    },
+    "deleteThisMessage": {
+        "message": "刪除這則訊息",
+        "description": ""
+    },
+    "from": {
+        "message": "來自",
+        "description": "Label for the sender of a message"
+    },
+    "to": {
+        "message": "至",
+        "description": "Label for the receiver of a message"
+    },
+    "toJoiner": {
+        "message": "至",
+        "description": "Joiner for message search results - like 'Jon' to 'Friends Group'"
+    },
+    "sent": {
+        "message": "已送出",
+        "description": "Label for the time a message was sent"
+    },
+    "received": {
+        "message": "已接收",
+        "description": "Label for the time a message was received"
+    },
+    "sendMessage": {
+        "message": "送出一則訊息",
+        "description": "Placeholder text in the message entry field"
+    },
+    "groupMembers": {
+        "message": "群組成員",
+        "description": ""
+    },
+    "showMembers": {
+        "message": "顯示成員",
+        "description": ""
+    },
+    "resetSession": {
+        "message": "重設對話",
+        "description": "This is a menu item for resetting the session, using the imperative case, as in a command."
+    },
+    "showSafetyNumber": {
+        "message": "檢視安全碼",
+        "description": ""
+    },
+    "viewAllMedia": {
+        "message": "檢視全部媒體",
+        "description": "This is a menu item for viewing all media (images + video) in a conversation, using the imperative case, as in a command."
+    },
+    "verifyHelp": {
+        "message": "如果你想要你與 $name$ 驗證端對端加密的安全性，比較上方的號碼與他們裝置上的號碼。",
+        "description": "",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "theirIdentityUnknown": {
+        "message": "你尚未與這個聯絡人交換訊息。你與他們的安全碼將會在初次送出訊息後生效。",
+        "description": ""
+    },
+    "moreInfo": {
+        "message": "更多資訊...",
+        "description": "Shown on the drop-down menu for an individual message, takes you to message detail screen"
+    },
+    "retrySend": {
+        "message": "重新傳送",
+        "description": "Shown on the drop-down menu for an indinvidaul message, but only if it is an outgoing message that failed to send"
+    },
+    "deleteMessage": {
+        "message": "刪除訊息",
+        "description": "Shown on the drop-down menu for an individual message, deletes single message"
+    },
+    "deleteMessages": {
+        "message": "刪除訊息",
+        "description": "Menu item for deleting messages, title case."
+    },
+    "deleteConversationConfirmation": {
+        "message": "永久刪除對話？",
+        "description": "Confirmation dialog text that asks the user if they really wish to delete the conversation. Answer buttons use the strings 'ok' and 'cancel'. The deletion is permanent, i.e. it cannot be undone."
+    },
+    "sessionEnded": {
+        "message": "安全對話重設",
+        "description": "This is a past tense, informational message. In other words, your secure session has been reset."
+    },
+    "quoteThumbnailAlt": {
+        "message": "引用訊息的縮圖",
+        "description": "Used in alt tag of thumbnail images inside of an embedded message quote"
+    },
+    "imageAttachmentAlt": {
+        "message": "訊息裏插入的圖片",
+        "description": "Used in alt tag of image attachment"
+    },
+    "videoAttachmentAlt": {
+        "message": "伴隨訊息的影片截圖",
+        "description": "Used in alt tag of video attachment preview"
+    },
+    "lightboxImageAlt": {
+        "message": "會話中送出的圖片",
+        "description": "Used in the alt tag for the image shown in a full-screen lightbox view"
+    },
+    "imageCaptionIconAlt": {
+        "message": "圖標顯示此圖像有說明文字",
+        "description": "Used for the icon layered on top of an image in message bubbles"
+    },
+    "addACaption": {
+        "message": "加入一個標題...",
+        "description": ""
+    },
+    "save": {
+        "message": "儲存",
+        "description": ""
+    },
+    "fileIconAlt": {
+        "message": "檔案圖示",
+        "description": "Used in the media gallery documents tab to visually represent a file"
+    },
+    "installWelcome": {
+        "message": "歡迎來到 Signal Desktop版",
+        "description": "Welcome title on the install page"
+    },
+    "installTagline": {
+        "message": "隱私是有可能的。Signal 讓隱私更簡單。",
+        "description": "Tagline displayed under 'installWelcome' string on the install page"
+    },
+    "linkYourPhone": {
+        "message": "您的手機與 Signal Desktop連結",
+        "description": "Shown on the front page when the application first starst, above the QR code"
+    },
+    "signalSettings": {
+        "message": "Signal 設定",
+        "description": "Used in the guidance to help people find the 'link new device' area of their Signal mobile app"
+    },
+    "linkedDevices": {
+        "message": "已連結的裝置",
+        "description": "Used in the guidance to help people find the 'link new device' area of their Signal mobile app"
+    },
+    "plusButton": {
+        "message": "「+」按鈕",
+        "description": "The button used in Signal Android to add a new linked device"
+    },
+    "linkNewDevice": {
+        "message": "連結新裝置",
+        "description": "The menu option shown in Signal iOS to add a new linked device"
+    },
+    "deviceName": {
+        "message": "裝置名稱",
+        "description": "The label in settings panel shown for the user-provided name for this desktop instance"
+    },
+    "chooseDeviceName": {
+        "message": "選擇此裝置的名稱",
+        "description": "The header shown on the 'choose device name' screen in the device linking process"
+    },
+    "finishLinkingPhone": {
+        "message": "完成連結手機",
+        "description": "The text on the button to finish the linking process, after choosing the device name"
+    },
+    "initialSync": {
+        "message": "正在同步聯絡人與群組",
+        "description": "Shown during initial link while contacts and groups are being pulled from mobile device"
+    },
+    "installConnectionFailed": {
+        "message": "無法連線到伺服器。",
+        "description": "Displayed when we can't connect to the server."
+    },
+    "installTooManyDevices": {
+        "message": "抱歉，你已經有太多連結的裝置。試著移除一些。",
+        "description": ""
+    },
+    "settings": {
+        "message": "設定",
+        "description": "Menu item and header for global settings"
+    },
+    "theme": {
+        "message": "主題",
+        "description": "Header for theme settings"
+    },
+    "permissions": {
+        "message": "許可",
+        "description": "Header for permissions section of settings"
+    },
+    "mediaPermissionsDescription": {
+        "message": "授權軟體可以使用相機與麥克風功能",
+        "description": "Description of the media permission description"
+    },
+    "general": {
+        "message": "一般",
+        "description": "Header for general options on the settings screen"
+    },
+    "spellCheckDescription": {
+        "message": "在訊息撰寫時啟用文字輸入的拼字檢查",
+        "description": "Description of the media permission description"
+    },
+    "clearDataHeader": {
+        "message": "清除資料",
+        "description": "Header in the settings dialog for the section dealing with data deletion"
+    },
+    "clearDataExplanation": {
+        "message": "這會清除所有應用程式的資料，移除所有訊息及已儲存的帳號資訊。",
+        "description": "Text describing what the clear data button will do."
+    },
+    "clearDataButton": {
+        "message": "清除資料",
+        "description": "Button in the settings dialog starting process to delete all data"
+    },
+    "deleteAllDataHeader": {
+        "message": "刪除所有資料？",
+        "description": "Header of the full-screen delete data confirmation screen"
+    },
+    "deleteAllDataBody": {
+        "message": "你即將刪除所有應用程式已儲存的帳號資訊，包含所有聯絡人及訊息。你通常能再與行動裝置連結，但無法還原被刪除的訊息。",
+        "description": "Text describing what exactly will happen if the user clicks the button to delete all data"
+    },
+    "deleteAllDataButton": {
+        "message": "刪除所有資料",
+        "description": "Text of the button that deletes all data"
+    },
+    "deleteAllDataProgress": {
+        "message": "離線中並刪除所有資料",
+        "description": "Message shown to user when app is disconnected and data deleted"
+    },
+    "notifications": {
+        "message": "通知",
+        "description": "Header for notification settings"
+    },
+    "notificationSettingsDialog": {
+        "message": "當訊息抵達時，通知會顯示：",
+        "description": "Explain the purpose of the notification settings"
+    },
+    "disableNotifications": {
+        "message": "關閉通知",
+        "description": "Label for disabling notifications"
+    },
+    "nameAndMessage": {
+        "message": "傳送者與訊息",
+        "description": "Label for setting notifications to display name and message text"
+    },
+    "noNameOrMessage": {
+        "message": "沒有名稱與訊息",
+        "description": "Label for setting notifications to display no name and no message text"
+    },
+    "nameOnly": {
+        "message": "只有傳送者的名稱",
+        "description": "Label for setting notifications to display sender name only"
+    },
+    "newMessage": {
+        "message": "新訊息",
+        "description": "Displayed in notifications for only 1 message"
+    },
+    "newMessages": {
+        "message": "新訊息",
+        "description": "Displayed in notifications for multiple messages"
+    },
+    "notificationMostRecentFrom": {
+        "message": "最近來自：",
+        "description": "Displayed in notifications when setting is 'name only' and more than one message is waiting"
+    },
+    "notificationFrom": {
+        "message": "來自：",
+        "description": "Displayed in notifications when setting is 'name only' and one message is waiting"
+    },
+    "notificationMostRecent": {
+        "message": "最近：",
+        "description": "Displayed in notifications when setting is 'name and message' and more than one message is waiting"
+    },
+    "notificationReaction": {
+        "message": "$sender$回應了 $emoji$你的訊息",
+        "description": "",
+        "placeholders": {
+            "sender": {
+                "content": "$1",
+                "example": "John"
+            },
+            "emoji": {
+                "content": "$2",
+                "example": "👍"
+            }
+        }
+    },
+    "notificationReactionMostRecent": {
+        "message": "最近: $sender$回應了 $emoji$你的訊息",
+        "description": "",
+        "placeholders": {
+            "sender": {
+                "content": "$1",
+                "example": "John"
+            },
+            "emoji": {
+                "content": "$2",
+                "example": "👍"
+            }
+        }
+    },
+    "sendFailed": {
+        "message": "傳送失敗",
+        "description": "Shown on outgoing message if it fails to send"
+    },
+    "showMore": {
+        "message": "細節",
+        "description": "Displays the details of a key change"
+    },
+    "showLess": {
+        "message": "隱藏細節",
+        "description": "Hides the details of a key change"
+    },
+    "learnMore": {
+        "message": "了解更多關於驗證安全碼",
+        "description": "Text that links to a support article on verifying safety numbers"
+    },
+    "expiredWarning": {
+        "message": "Signal Desktop版的版本已經過期。請更新到最新版來傳送訊息。",
+        "description": "Warning notification that this version of the app has expired"
+    },
+    "upgrade": {
+        "message": "升級",
+        "description": "Label text for button to upgrade the app to the latest version"
+    },
+    "mediaMessage": {
+        "message": "多媒體訊息",
+        "description": "Description of a message that has an attachment and no text, displayed in the conversation list as a preview."
+    },
+    "unregisteredUser": {
+        "message": "號碼尚未註冊",
+        "description": "Error message displayed when sending to an unregistered user."
+    },
+    "sync": {
+        "message": "聯絡人",
+        "description": "Label for contact and group sync settings"
+    },
+    "syncExplanation": {
+        "message": "從你的行動裝置，匯入 Signal 群組和聯絡人。",
+        "description": "Explanatory text for sync settings"
+    },
+    "lastSynced": {
+        "message": "上一次匯入在",
+        "description": "Label for date and time of last sync operation"
+    },
+    "syncNow": {
+        "message": "現在匯入",
+        "description": "Label for a button that syncs contacts and groups from your phone"
+    },
+    "syncing": {
+        "message": "正在匯入...",
+        "description": "Label for a disabled sync button while sync is in progress."
+    },
+    "syncFailed": {
+        "message": "匯入失敗。確認你的電腦與電話都連線到網路。",
+        "description": "Informational text displayed if a sync operation times out."
+    },
+    "timestamp_s": {
+        "message": "現在",
+        "description": "Brief timestamp for messages sent less than a minute ago. Displayed in the conversation list and message bubble."
+    },
+    "timestamp_m": {
+        "message": "1 分鐘",
+        "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble."
+    },
+    "timestamp_h": {
+        "message": "1 小時",
+        "description": "Brief timestamp for messages sent about one hour ago. Displayed in the conversation list and message bubble."
+    },
+    "hoursAgo": {
+        "message": "$hours$h",
+        "description": "Contracted form of 'X hours ago' which works both for singular and plural",
+        "placeholders": {
+            "hours": {
+                "content": "$1",
+                "example": "2"
+            }
+        }
+    },
+    "minutesAgo": {
+        "message": "$minutes$m",
+        "description": "Contracted form of 'X minutes ago' which works both for singular and plural",
+        "placeholders": {
+            "minutes": {
+                "content": "$1",
+                "example": "10"
+            }
+        }
+    },
+    "justNow": {
+        "message": "現在",
+        "description": "Shown if a message is very recent, less than 60 seconds old"
+    },
+    "timestampFormat_M": {
+        "message": "MMM D",
+        "description": "Timestamp format string for displaying month and day (but not the year) of a date within the current year, ex: use 'MMM D' for 'Aug 8', or 'D MMM' for '8 Aug'."
+    },
+    "messageBodyTooLong": {
+        "message": "訊息太長。",
+        "description": "Shown if the user tries to send more than 64kb of text"
+    },
+    "unblockToSend": {
+        "message": "解鎖聯絡人來傳送訊息。",
+        "description": "Brief message shown when trying to message a blocked number"
+    },
+    "unblockGroupToSend": {
+        "message": "解除此群組封鎖以傳送訊息。",
+        "description": "Brief message shown when trying to message a blocked group"
+    },
+    "youChangedTheTimer": {
+        "message": "您設定訊息讀後焚毀的時間為 $time$",
+        "description": "Message displayed when you change the message expiration timer in a conversation.",
+        "placeholders": {
+            "time": {
+                "content": "$1",
+                "example": "10m"
+            }
+        }
+    },
+    "timerSetOnSync": {
+        "message": "更新訊息讀後焚毀的計時器至  $time$",
+        "description": "Message displayed when timer is set on initial link of desktop device.",
+        "placeholders": {
+            "time": {
+                "content": "$1",
+                "example": "10m"
+            }
+        }
+    },
+    "theyChangedTheTimer": {
+        "message": "$name$ 設定訊息讀後焚毀的時間為  $time$",
+        "description": "Message displayed when someone else changes the message expiration timer in a conversation.",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            },
+            "time": {
+                "content": "$2",
+                "example": "10m"
+            }
+        }
+    },
+    "timerOption_0_seconds": {
+        "message": "關閉",
+        "description": "Label for option to turn off message expiration in the timer menu"
+    },
+    "timerOption_5_seconds": {
+        "message": "5 秒",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_10_seconds": {
+        "message": "10 秒",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_30_seconds": {
+        "message": "30 秒",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_1_minute": {
+        "message": "1 分鐘",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_5_minutes": {
+        "message": "5 分鐘",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_30_minutes": {
+        "message": "30 分鐘",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_1_hour": {
+        "message": "1 小時",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_6_hours": {
+        "message": "6 小時",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_12_hours": {
+        "message": "12 小時",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_1_day": {
+        "message": "1 天",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "timerOption_1_week": {
+        "message": "1 週",
+        "description": "Label for a selectable option in the message expiration timer menu"
+    },
+    "disappearingMessages": {
+        "message": "自動銷毀訊息",
+        "description": "Conversation menu option to enable disappearing messages"
+    },
+    "timerOption_0_seconds_abbreviated": {
+        "message": "關閉",
+        "description": "Short format indicating current timer setting in the conversation list snippet"
+    },
+    "timerOption_5_seconds_abbreviated": {
+        "message": "5 秒",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_10_seconds_abbreviated": {
+        "message": "10 秒",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_30_seconds_abbreviated": {
+        "message": "30 秒",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_1_minute_abbreviated": {
+        "message": "1 分鐘",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_5_minutes_abbreviated": {
+        "message": "5 分鐘",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_30_minutes_abbreviated": {
+        "message": "30 分鐘",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_1_hour_abbreviated": {
+        "message": "1 小時",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_6_hours_abbreviated": {
+        "message": "6 小時",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_12_hours_abbreviated": {
+        "message": "12 小時",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_1_day_abbreviated": {
+        "message": "1 天",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "timerOption_1_week_abbreviated": {
+        "message": "1 週",
+        "description": "Very short format indicating current timer setting in the conversation header"
+    },
+    "disappearingMessagesDisabled": {
+        "message": "關閉訊息讀後焚毀功能",
+        "description": "Displayed in the left pane when the timer is turned off"
+    },
+    "disabledDisappearingMessages": {
+        "message": "$name$ 關閉訊息讀後焚毀功能",
+        "description": "Displayed in the conversation list when the timer is turned off",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "youDisabledDisappearingMessages": {
+        "message": "您關閉了訊息讀後焚毀功能",
+        "description": "Displayed in the conversation list when the timer is turned off"
+    },
+    "timerSetTo": {
+        "message": "計時器設定為 $time$",
+        "description": "Displayed in the conversation list when the timer is updated by some automatic action, or in the left pane",
+        "placeholders": {
+            "time": {
+                "content": "$1",
+                "example": "1w"
+            }
+        }
+    },
+    "audioNotificationDescription": {
+        "message": "播放通知音效",
+        "description": "Description for audio notification setting"
+    },
+    "safetyNumberChanged": {
+        "message": "安全號碼已變更",
+        "description": "A notification shown in the conversation when a contact reinstalls"
+    },
+    "safetyNumberChangedGroup": {
+        "message": " $name$ 的安全碼已變更",
+        "description": "A notification shown in a group conversation when a contact reinstalls, showing the contact name",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "verifyNewNumber": {
+        "message": "驗證安全碼",
+        "description": "Label on button included with safety number change notification in the conversation"
+    },
+    "yourSafetyNumberWith": {
+        "message": "你與 $name$ 的安全碼：",
+        "description": "Heading for safety number view",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "John"
+            }
+        }
+    },
+    "themeLight": {
+        "message": "亮色系",
+        "description": "Label text for light theme (normal)"
+    },
+    "themeDark": {
+        "message": "暗色系",
+        "description": "Label text for dark theme"
+    },
+    "themeSystem": {
+        "message": "系統",
+        "description": "Label text for system theme"
+    },
+    "noteToSelf": {
+        "message": "給自己的筆記",
+        "description": "Name for the conversation with your own phone number"
+    },
+    "hideMenuBar": {
+        "message": "隱藏選單列",
+        "description": "Label text for menu bar visibility setting"
+    },
+    "startConversation": {
+        "message": "開始新的對話...",
+        "description": "Label underneath number a user enters that is not an existing contact"
+    },
+    "newPhoneNumber": {
+        "message": "輸入電話號碼來加入聯絡人",
+        "description": "Placeholder for adding a new number to a contact"
+    },
+    "invalidNumberError": {
+        "message": "無效號碼",
+        "description": "When a person inputs a number that is invalid"
+    },
+    "unlinkedWarning": {
+        "message": "重新連結 Signal Desktop到你的行動裝置來持續發送訊息。",
+        "description": ""
+    },
+    "unlinked": {
+        "message": "未連結的",
+        "description": ""
+    },
+    "relink": {
+        "message": "重新連結",
+        "description": ""
+    },
+    "autoUpdateNewVersionTitle": {
+        "message": "Signal 可用的更新",
+        "description": ""
+    },
+    "autoUpdateNewVersionMessage": {
+        "message": "這是新版本的 Signal。",
+        "description": ""
+    },
+    "autoUpdateNewVersionInstructions": {
+        "message": "點選重啟 Signal 來套用更新。",
+        "description": ""
+    },
+    "autoUpdateRestartButtonLabel": {
+        "message": "重啟 Signal",
+        "description": ""
+    },
+    "autoUpdateLaterButtonLabel": {
+        "message": "稍後",
+        "description": ""
+    },
+    "leftTheGroup": {
+        "message": "$name$ 離開此群組",
+        "description": "Shown in the conversation history when a single person leaves the group",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Bob"
+            }
+        }
+    },
+    "multipleLeftTheGroup": {
+        "message": "$name$ 離開此群組",
+        "description": "Shown in the conversation history when multiple people leave the group",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Alice, Bob"
+            }
+        }
+    },
+    "updatedTheGroup": {
+        "message": "群組昇級",
+        "description": "Shown in the conversation history when someone updates the group"
+    },
+    "titleIsNow": {
+        "message": "標題現為 '$name$'",
+        "description": "Shown in the conversation history when someone changes the title of the group",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Book Club"
+            }
+        }
+    },
+    "joinedTheGroup": {
+        "message": "$name$ 已加入小組",
+        "description": "Shown in the conversation history when a single person joins the group",
+        "placeholders": {
+            "name": {
+                "content": "$1",
+                "example": "Alice"
+            }
+        }
+    },
+    "multipleJoinedTheGroup": {
+        "message": "$names$ 已加入群組。",
+        "description": "Shown in the conversation history when more than one person joins the group",
+        "placeholders": {
+            "names": {
+                "content": "$1",
+                "example": "Alice, Bob"
+            }
+        }
+    },
+    "ConversationListItem--draft-prefix": {
+        "message": "草稿：",
+        "description": "Prefix shown in italic in conversation view when a draft is saved"
+    },
+    "message--getNotificationText--stickers": {
+        "message": "貼圖訊息",
+        "description": "Shown in notifications and in the left pane instead of sticker image."
+    },
+    "message--getDescription--unsupported-message": {
+        "message": "不支援的訊息",
+        "description": "Shown in notifications and in the left pane when a message has features too new for this signal install."
+    },
+    "message--getDescription--disappearing-media": {
+        "message": "一次性多媒體檔案",
+        "description": "Shown in notifications and in the left pane after view-once message is deleted."
+    },
+    "message--getDescription--disappearing-photo": {
+        "message": "一次性照片",
+        "description": "Shown in notifications and in the left pane when a message is a view once photo."
+    },
+    "message--getDescription--disappearing-video": {
+        "message": "一次性影片",
+        "description": "Shown in notifications and in the left pane when a message is a view once video."
+    },
+    "stickers--toast--InstallFailed": {
+        "message": "貼圖包無法安裝",
+        "description": "Shown in a toast if the user attempts to install a sticker pack and it fails"
+    },
+    "stickers--StickerManager--InstalledPacks": {
+        "message": "已裝的貼圖",
+        "description": "Shown in the sticker pack manager above your installed sticker packs."
+    },
+    "stickers--StickerManager--InstalledPacks--Empty": {
+        "message": "沒有貼圖被安裝",
+        "description": "Shown in the sticker pack manager when you don't have any installed sticker packs."
+    },
+    "stickers--StickerManager--BlessedPacks": {
+        "message": "Signal 藝術家系列",
+        "description": "Shown in the sticker pack manager above the default sticker packs."
+    },
+    "stickers--StickerManager--BlessedPacks--Empty": {
+        "message": "無Signal 藝術家貼圖提供",
+        "description": "Shown in the sticker pack manager when there are no blessed sticker packs available."
+    },
+    "stickers--StickerManager--ReceivedPacks": {
+        "message": "你收到的貼圖",
+        "description": "Shown in the sticker pack manager above sticker packs which you have received in messages."
+    },
+    "stickers--StickerManager--ReceivedPacks--Empty": {
+        "message": "你收到的貼圖訊息將顯示在這裡",
+        "description": "Shown in the sticker pack manager when you have not received any sticker packs in messages."
+    },
+    "stickers--StickerManager--Install": {
+        "message": "安裝",
+        "description": "Shown in the sticker pack manager next to sticker packs which can be installed."
+    },
+    "stickers--StickerManager--Uninstall": {
+        "message": "移除",
+        "description": "Shown in the sticker pack manager next to sticker packs which are already installed."
+    },
+    "stickers--StickerManager--UninstallWarning": {
+        "message": "你將無法新安裝此套貼圖如果你不再擁有原始的訊息。",
+        "description": "Shown in the sticker pack manager next to sticker packs which are already installed."
+    },
+    "stickers--StickerManager--Introduction--Image": {
+        "message": "介紹貼圖: 土匪貓",
+        "description": "Alt text on a tooltip image when the user upgrades to a version of Signal supporting stickers."
+    },
+    "stickers--StickerManager--Introduction--Title": {
+        "message": "介紹貼圖",
+        "description": "Shown as the title on a tooltip when the user upgrades to a version of Signal supporting stickers."
+    },
+    "stickers--StickerManager--Introduction--Body": {
+        "message": "如果你可以使用貼圖，為什麼要使用文字？",
+        "description": "Shown as the body on a tooltip when the user upgrades to a version of Signal supporting stickers."
+    },
+    "stickers--StickerPicker--DownloadError": {
+        "message": "有些貼圖無法被下載。",
+        "description": "Shown in the sticker picker when one or more stickers could not be downloaded."
+    },
+    "stickers--StickerPicker--DownloadPending": {
+        "message": "安裝此套貼圖...",
+        "description": "Shown in the sticker picker when one or more stickers are still downloading."
+    },
+    "stickers--StickerPicker--Empty": {
+        "message": "找不到貼圖",
+        "description": "Shown in the sticker picker when there are no stickers to show."
+    },
+    "stickers--StickerPicker--Hint": {
+        "message": "你訊息中的新貼圖已經提供安裝",
+        "description": "Shown in the sticker picker the first time you have received new packs you can install."
+    },
+    "stickers--StickerPicker--NoPacks": {
+        "message": "找不到此套貼圖",
+        "description": "Shown in the sticker picker when there are no installed sticker packs."
+    },
+    "stickers--StickerPicker--NoRecents": {
+        "message": "最近使用的貼圖將法在這裡顯示。",
+        "description": "Shown in the sticker picker when there are no recent stickers to show."
+    },
+    "stickers--StickerPreview--Title": {
+        "message": "貼圖包",
+        "description": "The title that appears in the sticker pack preview modal."
+    },
+    "stickers--StickerPreview--Error": {
+        "message": "開啟貼圖包錯誤，請檢查你的網路連接並再試一次。",
+        "description": "The message that appears in the sticker preview modal when there is an error."
+    },
+    "EmojiPicker--empty": {
+        "message": "找不到 Emoji",
+        "description": "Shown in the emoji picker when a search yields 0 results."
+    },
+    "EmojiPicker--search-placeholder": {
+        "message": "搜尋 Emoji",
+        "description": "Shown as a placeholder inside the emoji picker search field."
+    },
+    "EmojiPicker--skin-tone": {
+        "message": "膚色 $tone$",
+        "description": "Shown as a tooltip over the emoji tone buttons.",
+        "placeholders": {
+            "status": {
+                "content": "$1",
+                "example": "2"
+            }
+        }
+    },
+    "confirmation-dialog--Cancel": {
+        "message": "取消",
+        "description": "Appears on the cancel button in confirmation dialogs."
+    },
+    "Message--unsupported-message": {
+        "message": "$contact$ 傳送了一則無法處理或顯示的訊息，因為它使用了新的 Signal 功能。",
+        "description": "",
+        "placeholders": {
+            "contact": {
+                "content": "$1",
+                "example": "Alice"
+            }
+        }
+    },
+    "Message--unsupported-message-ask-to-resend": {
+        "message": "你可以要求$contact$重新發送此訊息，因為你使用的是最新版本的 Signal。",
+        "description": "",
+        "placeholders": {
+            "contact": {
+                "content": "$1",
+                "example": "Alice"
+            }
+        }
+    },
+    "Message--from-me-unsupported-message": {
+        "message": "你的某個裝置傳送了無法處理或顯示的訊息，因為它使用了新的 Signal 功能。",
+        "description": ""
+    },
+    "Message--from-me-unsupported-message-ask-to-resend": {
+        "message": "由於你使用的是最新版本的 Signal，因此將會同步此類未來的訊息。",
+        "description": ""
+    },
+    "Message--update-signal": {
+        "message": "更新 Signal",
+        "description": "Text for a button which will take user to Signal download page"
+    },
+    "Message--tap-to-view-expired": {
+        "message": "已查看",
+        "description": "Text shown on messages with with individual timers, after user has viewed it"
+    },
+    "Message--tap-to-view--outgoing": {
+        "message": "媒體",
+        "description": "Text shown on outgoing messages with with individual timers (inaccessble)"
+    },
+    "Message--tap-to-view--incoming--expired-toast": {
+        "message": "你已經看過這個訊息。",
+        "description": "Shown when user clicks on an expired incoming view-once bubble"
+    },
+    "Message--tap-to-view--outgoing--expired-toast": {
+        "message": "一次性訊息將不會儲存在你的對話歷程。",
+        "description": "Shown when user clicks on an expired outgoing view-once bubble"
+    },
+    "Message--tap-to-view--incoming": {
+        "message": "查看照片",
+        "description": "Text shown on photo messages with with individual timers, before user has viewed it"
+    },
+    "Message--tap-to-view--incoming-video": {
+        "message": "觀賞影片",
+        "description": "Text shown on video messages with with individual timers, before user has viewed it"
+    },
+    "Conversation--getDraftPreview--attachment": {
+        "message": "(附件)",
+        "description": "Text shown in left pane as preview for conversation with saved a saved draft message"
+    },
+    "Conversation--getDraftPreview--quote": {
+        "message": "(引用)",
+        "description": "Text shown in left pane as preview for conversation with saved a saved draft message"
+    },
+    "Conversation--getDraftPreview--draft": {
+        "message": "(草稿)",
+        "description": "Text shown in left pane as preview for conversation with saved a saved draft message"
+    },
+    "Keyboard--navigate-by-section": {
+        "message": "按部分瀏覽",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--previous-conversation": {
+        "message": "前一個對話",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--next-conversation": {
+        "message": "下一個對話",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--previous-unread-conversation": {
+        "message": "前一個未讀取的對話",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--next-unread-conversation": {
+        "message": "下一個未讀取的對話",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--preferences": {
+        "message": "設定",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--open-conversation-menu": {
+        "message": "開啟對話選項",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--archive-conversation": {
+        "message": "封存對話",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--unarchive-conversation": {
+        "message": "解除封存對話",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--search": {
+        "message": "搜尋",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--search-in-conversation": {
+        "message": "在對話中搜尋",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--focus-composer": {
+        "message": "專注編寫器",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--open-all-media-view": {
+        "message": "開啟所有多媒體檢視",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--open-emoji-chooser": {
+        "message": "開啟表情符號選擇器",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--open-sticker-chooser": {
+        "message": "開啟貼圖選擇器",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--begin-recording-voice-note": {
+        "message": "開始錄製語音筆記",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--default-message-action": {
+        "message": "選擇訊息的預設動作",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--view-details-for-selected-message": {
+        "message": "檢視所選訊息的細節",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--toggle-reply": {
+        "message": "切換回覆所選訊息",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--save-attachment": {
+        "message": "從所選的訊息中儲存附件",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--delete-message": {
+        "message": "刪除所選擇的訊息",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--add-newline": {
+        "message": "在訊息中新增換行符號",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--expand-composer": {
+        "message": "擴充編寫器",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--send-in-expanded-composer": {
+        "message": "傳送(在已擴充的編寫器)",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--attach-file": {
+        "message": "附上檔案",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--remove-draft-link-preview": {
+        "message": "移除草稿連結預覽",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--remove-draft-attachments": {
+        "message": "移除所有草稿附件",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--Key--ctrl": {
+        "message": "Ctrl",
+        "description": "Key shown in shortcut combination in shortcuts guide"
+    },
+    "Keyboard--Key--option": {
+        "message": "選項",
+        "description": "Key shown in shortcut combination in shortcuts guide"
+    },
+    "Keyboard--Key--alt": {
+        "message": "Alt",
+        "description": "Key shown in shortcut combination in shortcuts guide"
+    },
+    "Keyboard--Key--shift": {
+        "message": "Shift",
+        "description": "Key shown in shortcut combination in shortcuts guide"
+    },
+    "Keyboard--Key--enter": {
+        "message": "Enter",
+        "description": "Key shown in shortcut combination in shortcuts guide"
+    },
+    "Keyboard--header": {
+        "message": "鍵盤快捷鍵",
+        "description": "Title header of the keyboard shortcuts guide"
+    },
+    "Keyboard--navigation-header": {
+        "message": "瀏覽",
+        "description": "Header of the keyboard shortcuts guide - navigation section"
+    },
+    "Keyboard--messages-header": {
+        "message": "訊息",
+        "description": "Header of the keyboard shortcuts guide - messages section"
+    },
+    "Keyboard--composer-header": {
+        "message": "編寫器",
+        "description": "Header of the keyboard shortcuts guide - composer section"
+    },
+    "Keyboard--scroll-to-top": {
+        "message": "捲動到列表最上方",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--scroll-to-bottom": {
+        "message": "捲動到列表最下方",
+        "description": "Shown in the shortcuts guide"
+    },
+    "Keyboard--close-curent-conversation": {
+        "message": "關閉現有的對話",
+        "description": "Shown in the shortcuts guide"
+    },
+    "close-popup": {
+        "message": "關閉彈出視窗",
+        "description": "Used as alt text for any button closing a popup"
+    },
+    "add-image-attachment": {
+        "message": "新增影像附件",
+        "description": "Used in draft attachment list for the big 'add new attachment' button"
+    },
+    "remove-attachment": {
+        "message": "移除附件",
+        "description": "Used in draft attachment list to remove an individual attachment"
+    },
+    "backToInbox": {
+        "message": "回到信箱",
+        "description": "Used as alt-text of button on archived conversations screen"
+    },
+    "conversationArchived": {
+        "message": "對話已存檔",
+        "description": "A toast that shows up when user archives a conversation"
+    },
+    "conversationReturnedToInbox": {
+        "message": "復原對話到信箱",
+        "description": "A toast that shows up when the user unarchives a conversation"
+    },
+    "StickerCreator--title": {
+        "message": "貼圖包製作器",
+        "description": "The title of the Sticker Pack Creator window"
+    },
+    "StickerCreator--DropZone--staticText": {
+        "message": "點擊以此處新增或放置圖片",
+        "description": "Text which appears on the Sticker Creator drop zone when there is no active drag"
+    },
+    "StickerCreator--DropZone--activeText": {
+        "message": "將圖片放至此處",
+        "description": "Text which appears on the Sticker Creator drop zone when there is an active drag"
+    },
+    "StickerCreator--Preview--title": {
+        "message": "貼圖包",
+        "description": "The 'title' of the sticker pack preview 'modal'"
+    },
+    "StickerCreator--ConfirmDialog--cancel": {
+        "message": "取消",
+        "description": "The default text for the confirm dialog cancel button"
+    },
+    "StickerCreator--CopyText--button": {
+        "message": "複製",
+        "description": "The text which appears on the copy button for the sticker creator share screen"
+    },
+    "StickerCreator--ShareButtons--facebook": {
+        "message": "Facebook",
+        "description": "Title for Facebook button"
+    },
+    "StickerCreator--ShareButtons--twitter": {
+        "message": "推特",
+        "description": "Title for Twitter button"
+    },
+    "StickerCreator--ShareButtons--pinterest": {
+        "message": "Pinterest",
+        "description": "Title for Pinterest button"
+    },
+    "StickerCreator--ShareButtons--whatsapp": {
+        "message": "WhatsApp",
+        "description": "Title for WhatsApp button"
+    },
+    "StickerCreator--AppStage--next": {
+        "message": "下一步",
+        "description": "Default text for the next button on all stages of the sticker creator"
+    },
+    "StickerCreator--AppStage--prev": {
+        "message": "返回",
+        "description": "Default text for the previous button on all stages of the sticker creator"
+    },
+    "StickerCreator--DropStage--title": {
+        "message": "新增你的貼圖",
+        "description": "Title for the drop stage of the sticker creator"
+    },
+    "StickerCreator--DropStage--help": {
+        "message": "貼圖必需是 PNG 或 WebP 格式且背景為透明及 512x512像素。建議邊框為 16像素。",
+        "description": "Help text for the drop stage of the sticker creator"
+    },
+    "StickerCreator--DropStage--showMargins": {
+        "message": "顯示邊距",
+        "description": "Text for the show margins toggle on the drop stage of the sticker creator"
+    },
+    "StickerCreator--DropStage--addMore": {
+        "message": "新增$count$或更多",
+        "description": "Text to show user how many more stickers they must add",
+        "placeholders": {
+            "hashtag": {
+                "content": "$1",
+                "example": "4"
+            }
+        }
+    },
+    "StickerCreator--EmojiStage--title": {
+        "message": "在每個貼圖新增一個表情符號",
+        "description": "Title for the drop stage of the sticker creator"
+    },
+    "StickerCreator--EmojiStage--help": {
+        "message": "這將允許我們可以在你傳送訊息時向你建議貼圖。",
+        "description": "Help text for the drop stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--title": {
+        "message": "只是更多細節...",
+        "description": "Title for the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--Field--title": {
+        "message": "標題",
+        "description": "Label for the title input of the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--Field--author": {
+        "message": "作者名",
+        "description": "Label for the author input of the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--Field--cover": {
+        "message": "封面圖案",
+        "description": "Label for the cover image picker of the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--Field--cover--help": {
+        "message": "這是共享貼圖包時將顯示的圖片",
+        "description": "Help text for the cover image picker of the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--ConfirmDialog--title": {
+        "message": "你確定要上傳你的貼圖包？",
+        "description": "Title for the confirm dialog on the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--ConfirmDialog--confirm": {
+        "message": "上傳",
+        "description": "Text for the upload button in the confirmation dialog on the meta stage of the sticker creator"
+    },
+    "StickerCreator--MetaStage--ConfirmDialog--text": {
+        "message": "創作貼紙包後，你將不能夠再編輯或刪除。",
+        "description": "The text inside the confirmation dialog on the meta stage of the sticker creator"
+    },
+    "StickerCreator--UploadStage--title": {
+        "message": "製作你的貼圖包",
+        "description": "Title for the upload stage of the sticker creator"
+    },
+    "StickerCreator--UploadStage-uploaded": {
+        "message": "$count$之$total$已上傳",
+        "description": "Title for the upload stage of the sticker creator",
+        "placeholders": {
+            "count": {
+                "content": "$1",
+                "example": "3"
+            },
+            "total": {
+                "content": "$2",
+                "example": "20"
+            }
+        }
+    },
+    "StickerCreator--ShareStage--title": {
+        "message": "恭喜！你已經製作了一個貼圖包。",
+        "description": "Title for the share stage of the sticker creator"
+    },
+    "StickerCreator--ShareStage--help": {
+        "message": "透過貼圖圖示連結到你的新貼圖，或使用下面的連結與你的朋友分享。",
+        "description": "Help text for the share stage of the sticker creator"
+    },
+    "StickerCreator--ShareStage--callToAction": {
+        "message": "使用主題標籤$hashtag$可以幫助其他人找到你要公開連結的任何自定義貼圖包的URL。",
+        "description": "Call to action text for the share stage of the sticker creator",
+        "placeholders": {
+            "hashtag": {
+                "content": "$1",
+                "example": "<strong>#makeprivacystick</strong>"
+            }
+        }
+    },
+    "StickerCreator--ShareStage--copyTitle": {
+        "message": "貼圖包 URL",
+        "description": "Title for the copy button on the share stage of the sticker creator"
+    },
+    "StickerCreator--ShareStage--close": {
+        "message": "關閉",
+        "description": "Text for the close button on the share stage of the sticker creator"
+    },
+    "StickerCreator--ShareStage--createAnother": {
+        "message": "製作另一個貼圖包",
+        "description": "Text for the create another sticker pack button on the share stage of the sticker creator"
+    },
+    "StickerCreator--ShareStage--socialMessage": {
+        "message": "查看我為Signal 製作的新貼圖包。#makeprivacystick",
+        "description": "Text which is shared to social media platforms for sticker packs"
+    },
+    "StickerCreator--Toasts--imagesAdded": {
+        "message": "$count$圖片已被新增",
+        "description": "Text for the toast when images are added to the sticker creator",
+        "placeholders": {
+            "count": {
+                "content": "$1",
+                "example": "3"
+            }
+        }
+    },
+    "StickerCreator--Toasts--animated": {
+        "message": "動畫貼圖現在尚未支援",
+        "description": "Text for the toast when an image that is animated was dropped on the sticker creator"
+    },
+    "StickerCreator--Toasts--tooLarge": {
+        "message": "已放置的圖片檔案太大",
+        "description": "Text for the toast when an image that is too large was dropped on the sticker creator"
+    },
+    "StickerCreator--Toasts--errorProcessing": {
+        "message": "影像處理錯誤",
+        "description": "Text for the toast when an image cannot be processed was dropped on the sticker creator"
+    },
+    "StickerCreator--Toasts--errorUploading": {
+        "message": "貼圖上傳錯誤:$message$",
+        "description": "Text for the toast when a sticker pack cannot be uploaded",
+        "placeholders": {
+            "message": {
+                "content": "$1",
+                "example": "Not connected"
+            }
+        }
+    },
+    "StickerCreator--Toasts--linkedCopied": {
+        "message": "連結已複製的貼圖包",
+        "description": "Text for the toast when a link for sharing is copied from the Sticker Creator"
+    },
+    "StickerCreator--StickerPreview--light": {
+        "message": "明亮主題下的我的貼圖",
+        "description": "Text for the sticker preview for the light theme"
+    },
+    "StickerCreator--StickerPreview--dark": {
+        "message": "深色主題下得我的貼圖",
+        "description": "Text for the sticker preview for the dark theme"
+    },
+    "StickerCreator--Authentication--error": {
+        "message": "請在手機和桌上型電腦設定 Signal 以使用貼圖包製作器",
+        "description": "The error message which appears when the user has not linked their account and attempts to use the Sticker Creator"
+    },
+    "privacyPolicy": {
+        "message": "服務條款與隱私政策",
+        "description": "Shown in the about box for the link to https://signal.org/legal"
+    }
+}

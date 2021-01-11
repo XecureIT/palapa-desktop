@@ -1,0 +1,35 @@
+node_modules
+.sass-cache
+coverage/*
+build/curve25519_compiled.js
+build/icons/*
+stylesheets/*.css.map
+/dist
+.DS_Store
+config/local.json
+config/local-*.json
+*.provisionprofile
+release/
+/dev-app-update.yml
+.nyc_output/
+*.sublime*
+sql/
+
+# generated files
+js/components.js
+js/util_worker.js
+js/libtextsecure.js
+libtextsecure/components.js
+libtextsecure/test/test.js
+stylesheets/*.css
+test/test.js
+
+# React / TypeScript
+ts/**/*.js
+ts/protobuf/*.d.ts
+
+# CSS Modules
+**/*.scss.d.ts
+
+# Sticker Creator
+sticker-creator/dist/*
